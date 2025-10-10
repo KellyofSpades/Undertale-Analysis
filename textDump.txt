@@ -1,6 +1,7 @@
 Website:
 https://hushbugger.github.io/dialogue/
-https://steamcommunity.com/sharedfiles/filedetails/?id=3168554885
+https://steamcommunity.com/sharedfiles/filedetails/?id=3168554885 (types of endings)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2153162591 (route guide)
 
 idea:
 visualize paths?
