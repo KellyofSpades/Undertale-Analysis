@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<undertale path="genocide">
+    <speech>
+        <line character="chara" type="first_meeting">Greetings. I am Chara</line>
+        <line>Thank you. Your power awakened me from death.</line>
+        <line>My "human soul." My "determination." They were not mine, but YOURS.</line>
+        <line>At first, I was so confused. Our plan had failed, hadn't it? Why was I brought back to
+            life?</line>
+        <line>You. With your guidance. I realized the purpose of my reincarnation. Power.</line>
+        <line> Together, we eradicated the enemy and became strong. <stats>HP. ATK. DEF. GOLD. EXP.
+                LV.</stats></line>
+        <line>Every time a number increases, that feeling... That's me. "Chara."</line>
+        <line>Now, we have reached the absolute. There is nothing left for us here. Let us erase
+            this pointless world, and move on to the next.</line>
+    </speech>
+    <decision>
+        <choice type="erase" tone="satisfied">Right. You are a great partner. We'll be together forever, won't
+            we?</choice>
+        <choice type="do not" tone="angry">No...? Hmm... How curious. You must have misunderstood. SINCE WHEN
+            WERE YOU THE ONE IN CONTROL?</choice>
+    </decision>
+</undertale>
