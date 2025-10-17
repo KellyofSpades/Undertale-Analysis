@@ -12,7 +12,7 @@
             <text>It's me, your best friend</text>
         </position>
     </character>
-    
+
     <bossBattle phase="one">
         <holding count="one">
             <text>You know...</text>
@@ -66,7 +66,7 @@
             <text>Let's see what good your DETERMINATION is against this!!!</text>
         </holding>
     </bossBattle>
-    
+
     <bossBattle phase="two">
         <act count="one">
             <text>Urah ha ha ha... Behold my TRUE power!</text>
@@ -90,7 +90,7 @@
             <text>Show me what good your DETERMINATION is now!</text>
         </act>
     </bossBattle>
-    
+
     <bossBattle phase="rescuing">
         <save count="one">
             <text>Huh? What are you doing...!?</text>
@@ -138,6 +138,121 @@
         <save count="nine">
             <text>...</text>
             <text>[Player's Name]...</text>
+            <text>I'm so alone. [Player's Name]...</text>
+        </save>
+        <save count="ten">
+            <text>I'm so afraid. [Player's Name]...</text>
+        </save>
+        <save count="eleven">
+            <text>[Player's Name], I...</text>
+        </save>
+        <save count="twelve">
+            <text>I...</text>
         </save>
     </bossBattle>
+
+    <character name="Asreil Dreemur">
+        <position body="crying">
+            <textbox face="upset">I'm so sorry</textbox>
+        </position>
+        <position body="facingPlayer">
+            <textbox face="calm">I always was a crybaby, wasn't I, [Player's Name]?</textbox>
+            <textbox face="calm">...</textbox>
+            <textbox face="upset">... I know.</textbox>
+            <textbox face="neutral">You're not actually [Player's Name], are you?</textbox>
+            <textbox face="neutral">[Player's Name] has been gone for a long time.</textbox>
+            <textbox face="calm">...</textbox>
+            <textbox face="side-eye">Um... what...</textbox>
+            <textbox face="neutral">What IS your name?</textbox>
+            <textbox face="thinking">...</textbox>
+            <textbox face="happy">"Frisk?"</textbox>
+            <textbox face="neutral">That's...</textbox>
+            <textbox face="neutral">A nice name.</textbox>
+            <textbox face="neutral">...</textbox>
+            <textbox face="excited">Frisk...</textbox>
+            <textbox face="neutral">I haven't felt like this for a long time.</textbox>
+            <textbox face="upset">As a flower, I was soulless.</textbox>
+            <textbox face="disappointed">I lacked the power to love other people.</textbox>
+            <textbox face="neutral">However, with everyone's souls inside me...</textbox>
+            <textbox face="excited">I not only have my own compassion back...</textbox>
+            <textbox face="neutral">But I can feel every other monster's as well.</textbox>
+            <textbox face="excited">They all care about each other so much.</textbox>
+            <textbox face="neutral">And.. they care about you too, Frisk.</textbox>
+            <textbox face="neutral">...</textbox>
+            <textbox face="excited">I wish I could tell you how everyone feels about you.</textbox>
+            <textbox face="excited">Papyrus... Sans... Undyne... Alphys...</textbox>
+            <textbox face="happy">... Toriel.</textbox>
+            <textbox face="calm">Monsters are weird.</textbox>
+            <textbox face="neutral">Even though they barely know you...</textbox>
+            <textbox face="neutral">It feels like they all really love you.</textbox>
+            <textbox face="excited">Haha.</textbox>
+            <textbox face="excited">...</textbox>
+            <textbox face="upset">Frisk... I... I understand if you can' forgive me.</textbox>
+            <textbox face="upset">I understand if you hate me.</textbox>
+            <textbox face="upset">I acted so strange and horrible.</textbox>
+            <textbox face="upset">I hurt you.</textbox>
+            <textbox face="upset">I hurt so many people.</textbox>
+            <textbox face="disappointed">Friends, family, bystanders...</textbox>
+            <textbox face="upset">There's no excuse for what I've done.</textbox>
+        </position>
+    </character>
+
+    <optionOne>
+        <forgive>
+            <textbox face="upset">Wh... What?</textbox>
+            <textbox face="excited">... Frisk, come on.</textbox>
+            <textbox face="neutral">You're... You're gonna make me cry again.</textbox>
+            <textbox face="excited">... besides, even if you do forgive me...</textbox>
+            <textbox face="upset">I can't keep these souls inside of me.</textbox>
+            <textbox face="neutral">The least I can do is return them.</textbox>
+            <textbox face="concerned">But first...</textbox>
+            <textbox face="strong">There's something I have to do.</textbox>
+            <textbox face="strong">Right now, I can feel everyone's hearts beating as one.</textbox>
+            <textbox face="strong">They're all burning with the same desire.</textbox>
+            <textbox face="strong">With everyone's power... With everyone's determination.</textbox>
+            <textbox face="strong">It's time for monsters...</textbox>
+            <textbox face="strong">To finally go free.</textbox>
+        </forgive>
+    </optionOne>
+
+    <postCutscene>
+        <position body="faced-right-down">
+            <textbox face="excited">Frisk...</textbox>
+            <textbox face="neutral">I have to go now.</textbox>
+            <textbox face="excited">Without the power of everyone's souls...</textbox>
+            <textbox face="disappointed">I can't keep maintaining this form.</textbox>
+            <textbox face="disappointed">In a little while...</textbox>
+            <textbox face="disappointed">I'll turn back into a flower.</textbox>
+            <textbox face="disappointed">I'll stop being "myself."</textbox>
+            <textbox face="disappointed">I'll stop being able to feel love again.</textbox>
+            <textbox face="upset">So... Frisk.</textbox>
+            <textbox face="upset">It's best of you just forget about me, OK?</textbox>
+            <textbox face="neutral">Just go be with the people who love you.</textbox>
+        </position>
+    </postCutscene>
+
+    <optionTwo>
+        <comfortHim>
+            <position body="hugging-Frisk">
+                <text>Ha... ha...</text>
+                <text>I don't want to let go...</text>
+            </position>
+            <position body="faced-right">
+                <textbox face="excited">Frisk...</textbox>
+                <textbox face="excited">You're..;</textbox>
+                <textbox face="happy">You're going to do a great job, OK?</textbox>
+                <textbox face="neutral">No matter what you do.</textbox>
+                <textbox face="neutral">Everyone will be there for you, okay?</textbox>
+            </position>
+            <position body="turned">
+                <textbox face="excited">Well... My time's running out.</textbox>
+                <textbox face="excited">Goodbye.</textbox>
+            </position>
+            <position body="facingPlayer">
+                <textbox face="neutral">By the way...</textbox>
+                <textbox face="neutral">Frisk...</textbox>
+                <textbox face="neutral">...take care of Mom and Dad for me, OK?</textbox>
+            </position>
+        </comfortHim>
+    </optionTwo>
 </undetale>
