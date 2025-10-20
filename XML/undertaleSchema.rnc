@@ -1,8 +1,0 @@
-start = undertale
-undertale = element undertale {scene}
-
-scene = element scene {route}
-route = attribute route {"genocide" | "neutral" | "pacifist" | "indestinct"}
-
-
-prsnEncounter = attribute encounter {xsd:integer}

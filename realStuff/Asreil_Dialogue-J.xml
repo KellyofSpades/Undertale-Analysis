@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../XML/undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<undertale>
+    <!-- name and emotion ref list -->
+    <!-- sep. file? -->
+    <nameRef>
+        <name xml:id="AD">Asreil Dreemur</name>
+        <name xml:id="TD">Toriel Dreemur</name>
+    </nameRef>
+    <bodyRef>
+        <expr xml:id="Sm">smile</expr>
+    </bodyRef>
+    <scene route="pacifist">
+          <act speakerRef="#AD">
+            <bodyLang body="null" faceRef="smile">
+                <p>Finally.</p>
+                <p>I was so tired of being a flower.</p>
+            </bodyLang>
+           </act>
+        <act speakerRef="#AD">
+            <bodyLang body="facingPlayer" faceRef="smile">
+                <p punc="!">Howdy!</p>
+                <p>[Player's Name], are you there?</p>
+                <p>It's me, your best friend</p>
+            </bodyLang>
+        </act>
+        <battleStart type="boss" opRef="#AD"/>
+        <battle phase="1">
+            <act speakerRef="#AD">
+                <bodyLang body="null" faceRef="#sm">                
+                    <p>You know...</p>
+                    <p>I don't care about destroying this world anymore.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="#AD">
+                <p>After I defeat you and gain total control over the timeline...</p>
+                <p>I just want to reset everything.</p>
+            </act>
+            <act speakerRef="#AD">
+               <bodyLang> <p>All your progress... Everyone's memories.</p>
+                <p>I'll bring them all back to zero!</p>
+               </bodyLang>
+            </act>
+            <act speakerRef="#AD">
+                <p>Then we can do everything ALL over again.</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>And you know what the best part of all this is?</p>
+                <p>You'll DO it.</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>And then you'll lose to me again.</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>And again.</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>And again!!!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Because you want a "happy ending."</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Because you "love your friends."</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Because you "never give up."</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Isn't that delicious?</p>
+                <p>Your "determination." The power that let you get this far...</p>
+                <p>It's gonna be your downfall!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Now, ENOUGH messing around!</p>
+                <p>It's time to purge this timeline once and for all!</p>
+                <p>...even after that attack, you're still standing in my way...?</p>
+                <p>Wow... you really ARE something special.</p>
+                <p>But don't get cocky.</p>
+                <p>Up until now, I've only been using a fraction of my REAL power!</p>
+                <p>Let's see what good your DETERMINATION is against this!!!</p>
+            </act>
+        </battle>
+
+        <battle phase="2">
+            <act speakerRef="#AD">
+                <p>Urah ha ha ha... Behold my TRUE power!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>I can feel it...</p>
+                <p>Every time you die, your grip on this world slips away.</p>
+                <p>every time you die, your friends forget you a little more.</p>
+                <p>Your life will end here, in a world where no one remembers you...</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Still, you're hanging on...?</p>
+                <p>That's fine.</p>
+                <p>In a few moments, you'll forget everything, too.</p>
+                <p>That attitude will serve you well in your next life!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Ura ha ha...</p>
+                <p>Still!?</p>
+                <p>Come on...</p>
+                <p>Show me what good your DETERMINATION is now!</p>
+            </act>
+        </battle>
+
+        <battle phase="rescuing">
+            <act speakerRef="#AD">
+                <p>Huh? What are you doing...!?</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>Wh... what did you do...?</p>
+                <p>What's this feeling...? What's happening to me?</p>
+                <p>No! NO! I don't need ANYONE!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>STOP IT! Get away from me!</p>
+                <p>Do you hear me!?</p>
+                <p>I'll tear you apart!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>...</p>
+                <p>[Player's Name]... Do you know why I'm doing this...?</p>
+                <p>Why I keep fighting to keep you around...?</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>I'm doing this...</p>
+                <p>Because you're special, [Player's Name].</p>
+                <p>You're the only one who understands me.</p>
+                <p>You're the only one who's any fun to play with anymore.</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>...</p>
+                <p>No...</p>
+                <p>That's not JUST it.</p>
+                <p>I... I...</p>
+                <p>I'm doing this because I care about you, [Player's Name]!</p>
+                <p> I care about you more than anybody else!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>I'm not ready for this to end.</p>
+                <p>I'm not ready for you to leave.</p>
+                <p>I'm not ready to say goodbye to someone like you again...</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>So, please... STOP doing this...</p>
+                <p>AND JUST LET ME WIN!!!</p>
+                <p style="quivering">STOP IT!!</p>
+                <p style="quivering">STOP IT NOW!!!</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>...</p>
+                <p>[Player's Name]...</p>
+                <p>I'm so alone. [Player's Name]...</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>I'm so afraid. [Player's Name]...</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>[Player's Name], I...</p>
+            </act>
+            <act speakerRef="#AD">
+                <p>I...</p>
+            </act>
+        </battle>
+        <battleEnd/>
+        <character name="Asreil Dreemur">
+            <position body="crying">
+                <p face="upset">I'm so sorry</p>
+            </position>
+            <position body="facingPlayer">
+                <p face="calm">I always was a crybaby, wasn't I, [Player's Name]?</p>
+                <p face="calm">...</p>
+                <p face="upset">... I know.</p>
+                <p face="neutral">You're not actually [Player's Name], are you?</p>
+                <p face="neutral">[Player's Name] has been gone for a long time.</p>
+                <p face="calm">...</p>
+                <p face="side-eye">Um... what...</p>
+                <p face="neutral">What IS your name?</p>
+                <p face="thinking">...</p>
+                <p face="happy">"Frisk?"</p>
+                <p face="neutral">That's...</p>
+                <p face="neutral">A nice name.</p>
+                <p face="neutral">...</p>
+                <p face="excited">Frisk...</p>
+                <p face="neutral">I haven't felt like this for a long time.</p>
+                <p face="upset">As a flower, I was soulless.</p>
+                <p face="disappointed">I lacked the power to love other people.</p>
+                <p face="neutral">However, with everyone's souls inside me...</p>
+                <p face="excited">I not only have my own compassion back...</p>
+                <p face="neutral">But I can feel every other monster's as well.</p>
+                <p face="excited">They all care about each other so much.</p>
+                <p face="neutral">And.. they care about you too, Frisk.</p>
+                <p face="neutral">...</p>
+                <p face="excited">I wish I could tell you how everyone feels about
+                    you.</p>
+                <p face="excited">Papyrus... Sans... Undyne... Alphys...</p>
+                <p face="happy">... Toriel.</p>
+                <p face="calm">Monsters are weird.</p>
+                <p face="neutral">Even though they barely know you...</p>
+                <p face="neutral">It feels like they all really love you.</p>
+                <p face="excited">Haha.</p>
+                <p face="excited">...</p>
+                <p face="upset">Frisk... I... I understand if you can' forgive me.</p>
+                <p face="upset">I understand if you hate me.</p>
+                <p face="upset">I acted so strange and horrible.</p>
+                <p face="upset">I hurt you.</p>
+                <p face="upset">I hurt so many people.</p>
+                <p face="disappointed">Friends, family, bystanders...</p>
+                <p face="upset">There's no excuse for what I've done.</p>
+            </position>
+        </character>
+
+        <optionOne>
+            <forgive>
+                <p face="upset">Wh... What?</p>
+                <p face="excited">... Frisk, come on.</p>
+                <p face="neutral">You're... You're gonna make me cry again.</p>
+                <p face="excited">... besides, even if you do forgive me...</p>
+                <p face="upset">I can't keep these souls inside of me.</p>
+                <p face="neutral">The least I can do is return them.</p>
+                <p face="concerned">But first...</p>
+                <p face="strong">There's something I have to do.</p>
+                <p face="strong">Right now, I can feel everyone's hearts beating as
+                    one.</p>
+                <p face="strong">They're all burning with the same desire.</p>
+                <p face="strong">With everyone's power... With everyone's
+                    determination.</p>
+                <p face="strong">It's time for monsters...</p>
+                <p face="strong">To finally go free.</p>
+            </forgive>
+        </optionOne>
+
+        <postCutscene>
+            <position body="faced-right-down">
+                <p face="excited">Frisk...</p>
+                <p face="neutral">I have to go now.</p>
+                <p face="excited">Without the power of everyone's souls...</p>
+                <p face="disappointed">I can't keep maintaining this form.</p>
+                <p face="disappointed">In a little while...</p>
+                <p face="disappointed">I'll turn back into a flower.</p>
+                <p face="disappointed">I'll stop being "myself."</p>
+                <p face="disappointed">I'll stop being able to feel love again.</p>
+                <p face="upset">So... Frisk.</p>
+                <p face="upset">It's best of you just forget about me, OK?</p>
+                <p face="neutral">Just go be with the people who love you.</p>
+            </position>
+        </postCutscene>
+
+        <optionTwo>
+            <comfortHim>
+                <position body="hugging-Frisk">
+                    <p>Ha... ha...</p>
+                    <p>I don't want to let go...</p>
+                </position>
+                <position body="faced-right">
+                    <p face="excited">Frisk...</p>
+                    <p face="excited">You're..;</p>
+                    <p face="happy">You're going to do a great job, OK?</p>
+                    <p face="neutral">No matter what you do.</p>
+                    <p face="neutral">Everyone will be there for you, okay?</p>
+                </position>
+                <position body="turned">
+                    <p face="excited">Well... My time's running out.</p>
+                    <p face="excited">Goodbye.</p>
+                </position>
+                <position body="facingPlayer">
+                    <p face="neutral">By the way...</p>
+                    <p face="neutral">Frisk...</p>
+                    <p face="neutral">...take care of Mom and Dad for me, OK?</p>
+                </position>
+            </comfortHim>
+        </optionTwo>
+    </scene>
+</undertale>
