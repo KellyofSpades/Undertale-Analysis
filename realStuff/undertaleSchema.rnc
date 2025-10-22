@@ -1,5 +1,5 @@
 start = undertale
-undertale = element undertale {metadata, scene+}
+undertale = element undertale {metadata, (scene | altScene)*}
 metadata = element metadata {refList}
 refList = element refList {name+, expr+}
 #nameList = element nameList {name+}
@@ -7,13 +7,16 @@ refList = element refList {name+, expr+}
 name = element name {xmlid, text}
 xmlid = attribute xml:id {xsd:ID}
 expr = element expr {xmlid, text}
-scene = element scene {route, (act | battleStart | battle | battleEnd)*}
+scene = element scene {route, type, (act | battleStart | battle | battleEnd)*}
+altScene = element altScene {route, option, type, (act | battleStart | battle | battleEnd)*}
+option = attribute option {n}
+n = (xsd:integer)
+type = attribute type {text}
 route = attribute route {"genocide" | "neutral" | "pacifist" | "indestinct"}
 
 battleStart = element battleStart {type, opRef+, empty}
 battleEnd = element battleEnd {empty}
 # edit text later for mob types
-type = attribute type {"boss"}
 battle = element battle {phase, act*}
 phase = attribute phase {xsd:integer}
 
@@ -27,9 +30,10 @@ refs = (xsd:IDREFS)
 # ----------------------------------------------
 
 act = element act {speakerRef, ((bodyLang, p*) | p*)}
-bodyLang = element bodyLang {body?, faceRef?, p+}
+bodyLang = element bodyLang {body?, faceRef?, (p+ | empty)}
 body = attribute body {"north" | "east" | "south" | "west" | "null"}
-p = element p {punc?, text+}
+p = element p {punc?, quiver?, text+}
+quiver = attribute quiver {xsd:boolean}
 punc = attribute punc {"?" | "." | "!" | "..." | "null"}
 #xmlidref = attribute xml:id {xsd:IDREF}
 
