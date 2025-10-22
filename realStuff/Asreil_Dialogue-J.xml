@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../XML/undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="undertaleSchematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <undertale>
-    <!-- name and emotion ref list -->
-    <!-- sep. file? -->
-    <nameRef>
-        <name xml:id="AD">Asreil Dreemur</name>
-        <name xml:id="TD">Toriel Dreemur</name>
-    </nameRef>
-    <bodyRef>
-        <expr xml:id="Sm">smile</expr>
-    </bodyRef>
+    <metadata>
+        <!-- name and emotion ref list -->
+        <!-- sep. file? -->
+        <refList>
+            <!--Characters-->
+           <name xml:id="AD">Asreil Dreemur</name>
+           <name xml:id="TD">Toriel Dreemur</name>
+            <!--Expressions-->
+           <expr xml:id="Sm1">smile</expr>
+        </refList>
+    </metadata>
     <scene route="pacifist">
           <act speakerRef="#AD">
             <bodyLang body="null" faceRef="smile">

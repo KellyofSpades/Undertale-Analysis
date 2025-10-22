@@ -1,32 +1,37 @@
 start = undertale
-undertale = element undertale {nameRef, bodyRef, scene}
-nameRef = element nameRef {name+}
-# wtf
+undertale = element undertale {metadata, scene+}
+metadata = element metadata {refList}
+refList = element refList {name+, expr+}
+#nameList = element nameList {name+}
+#bodyList = element bodyList {expr}
 name = element name {xmlid, text}
 xmlid = attribute xml:id {xsd:ID}
-bodyRef = element bodyRef {expr}
 expr = element expr {xmlid, text}
 scene = element scene {route, (act | battleStart | battle)*}
 route = attribute route {"genocide" | "neutral" | "pacifist" | "indestinct"}
 
-battleStart = element battleStart {type, opRef, empty}
+battleStart = element battleStart {type, opRef+, empty}
 battleEnd = element battleEnd {empty}
 # edit text later for mob types
 type = attribute type {"boss"}
-opRef = attribute opRef {xsd:IDREFS}
 battle = element battle {phase, act*}
 phase = attribute phase {xsd:integer}
+
+# Reference declarations------------------------
+opRef = attribute opRef {refs}
+faceRef = attribute faceRef {ref}
+speakerRef = attribute speakerRef {ref}
+ref = (xsd:IDREF)
+refs = (xsd:IDREFS)
+#ID/IDREF not the way?
+# ----------------------------------------------
 
 act = element act {speakerRef, ((bodyLang, p*) | p*)}
 bodyLang = element bodyLang {(body, faceRef)?, p+}
 body = attribute body {"north" | "east" | "south" | "west" | "null"}
-faceRef = attribute faceRef {xsd:IDREFS}
 p = element p {punc | text+}
 punc = attribute punc {"?" | "." | "!" | "null"}
-#n = attribute n {xsd:integer}
-speakerRef = attribute speakerRef {xsd:IDREF}
 #xmlidref = attribute xml:id {xsd:IDREF}
-
 
 #action = element action {choice}
 #choice = 
