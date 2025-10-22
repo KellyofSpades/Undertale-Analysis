@@ -10,71 +10,75 @@
            <name xml:id="AD">Asreil Dreemur</name>
            <name xml:id="TD">Toriel Dreemur</name>
             <!--Expressions-->
-           <expr xml:id="Sm1">smile</expr>
+           <expr xml:id="Sm1">Smiling</expr>
+           <expr xml:id="Cr1">Crying</expr>
+           <expr xml:id="Neut2">Calm with...</expr>
+           <expr xml:id="Neut1">Neutral</expr>
+           <expr xml:id="Se1">Side-eye</expr>
         </refList>
     </metadata>
     <scene route="pacifist">
-          <act speakerRef="#AD">
+          <act speakerRef="AD">
             <bodyLang body="null" faceRef="smile">
                 <p>Finally.</p>
                 <p>I was so tired of being a flower.</p>
             </bodyLang>
            </act>
-        <act speakerRef="#AD">
-            <bodyLang body="facingPlayer" faceRef="smile">
+        <act speakerRef="AD">
+            <bodyLang body="null" faceRef="smile">
                 <p punc="!">Howdy!</p>
                 <p>[Player's Name], are you there?</p>
                 <p>It's me, your best friend</p>
             </bodyLang>
         </act>
-        <battleStart type="boss" opRef="#AD"/>
+        <battleStart type="boss" opRef="AD"/>
         <battle phase="1">
-            <act speakerRef="#AD">
-                <bodyLang body="null" faceRef="#sm">                
+            <act speakerRef="AD">
+                <bodyLang body="null" faceRef="Sm1">                
                     <p>You know...</p>
                     <p>I don't care about destroying this world anymore.</p>
                 </bodyLang>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>After I defeat you and gain total control over the timeline...</p>
                 <p>I just want to reset everything.</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                <bodyLang> <p>All your progress... Everyone's memories.</p>
                 <p>I'll bring them all back to zero!</p>
                </bodyLang>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Then we can do everything ALL over again.</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>And you know what the best part of all this is?</p>
                 <p>You'll DO it.</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>And then you'll lose to me again.</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>And again.</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>And again!!!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Because you want a "happy ending."</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Because you "love your friends."</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Because you "never give up."</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Isn't that delicious?</p>
                 <p>Your "determination." The power that let you get this far...</p>
                 <p>It's gonna be your downfall!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Now, ENOUGH messing around!</p>
                 <p>It's time to purge this timeline once and for all!</p>
                 <p>...even after that attack, you're still standing in my way...?</p>
@@ -86,22 +90,22 @@
         </battle>
 
         <battle phase="2">
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Urah ha ha ha... Behold my TRUE power!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>I can feel it...</p>
                 <p>Every time you die, your grip on this world slips away.</p>
                 <p>every time you die, your friends forget you a little more.</p>
                 <p>Your life will end here, in a world where no one remembers you...</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Still, you're hanging on...?</p>
                 <p>That's fine.</p>
                 <p>In a few moments, you'll forget everything, too.</p>
                 <p>That attitude will serve you well in your next life!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Ura ha ha...</p>
                 <p>Still!?</p>
                 <p>Come on...</p>
@@ -110,31 +114,31 @@
         </battle>
 
         <battle phase="rescuing">
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Huh? What are you doing...!?</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>Wh... what did you do...?</p>
                 <p>What's this feeling...? What's happening to me?</p>
                 <p>No! NO! I don't need ANYONE!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>STOP IT! Get away from me!</p>
                 <p>Do you hear me!?</p>
                 <p>I'll tear you apart!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>...</p>
                 <p>[Player's Name]... Do you know why I'm doing this...?</p>
                 <p>Why I keep fighting to keep you around...?</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>I'm doing this...</p>
                 <p>Because you're special, [Player's Name].</p>
                 <p>You're the only one who understands me.</p>
                 <p>You're the only one who's any fun to play with anymore.</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>...</p>
                 <p>No...</p>
                 <p>That's not JUST it.</p>
@@ -142,37 +146,43 @@
                 <p>I'm doing this because I care about you, [Player's Name]!</p>
                 <p> I care about you more than anybody else!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>I'm not ready for this to end.</p>
                 <p>I'm not ready for you to leave.</p>
                 <p>I'm not ready to say goodbye to someone like you again...</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>So, please... STOP doing this...</p>
                 <p>AND JUST LET ME WIN!!!</p>
                 <p style="quivering">STOP IT!!</p>
                 <p style="quivering">STOP IT NOW!!!</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>...</p>
                 <p>[Player's Name]...</p>
                 <p>I'm so alone. [Player's Name]...</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>I'm so afraid. [Player's Name]...</p>
             </act>
-            <act speakerRef="#AD">
+            <act speakerRef="AD">
                 <p>[Player's Name], I...</p>
             </act>
-            <act speakerRef="#AD">
-                <p>I...</p>
+            <act speakerRef="AD">
+                <p punc="...">I...</p>
             </act>
         </battle>
         <battleEnd/>
-        <character name="Asreil Dreemur">
-            <position body="crying">
+        <act speakerRef="AD">
+            <bodyLang body="null" faceRef="Cr1">
                 <p face="upset">I'm so sorry</p>
-            </position>
+            </bodyLang>
+        </act>
+        <act speakerRef="AD">
+            <bodyLang body="null" faceRef="Neut2">
+                <p></p>
+            </bodyLang>
+        </act>
             <position body="facingPlayer">
                 <p face="calm">I always was a crybaby, wasn't I, [Player's Name]?</p>
                 <p face="calm">...</p>
@@ -214,7 +224,7 @@
                 <p face="disappointed">Friends, family, bystanders...</p>
                 <p face="upset">There's no excuse for what I've done.</p>
             </position>
-        </character>
+        </act>
 
         <optionOne>
             <forgive>
