@@ -21,9 +21,11 @@
             <expr xml:id="Sad3">Disappointed</expr>
             <expr xml:id="Mad3">Determined</expr>
             <expr xml:id="Se2">Concerned</expr>
+            <expr xml:id="Hug">Hugging</expr>
         </refList>
     </metadata>
-    <scene route="pacifist">
+    
+    <scene type="beforeBorder" route="pacifist">
         <act speakerRef="AD">
             <bodyLang body="null" faceRef="Hap2">
                 <p>Finally.</p>
@@ -37,6 +39,7 @@
                 <p>It's me, your best friend</p>
             </bodyLang>
         </act>
+
         <battleStart type="boss" opRef="AD"/>
         <battle phase="1">
             <act speakerRef="AD">
@@ -180,6 +183,7 @@
             </act>
         </battle>
         <battleEnd/>
+
         <act speakerRef="AD">
             <bodyLang body="null" faceRef="Sad1"/>
         </act>
@@ -379,9 +383,7 @@
             </bodyLang>
         </act>
 
-        <altScene>
-        <optionOne>
-            <forgive>
+        <altScene choice="forgive">
                 <act speakerRef="AD">
                     <bodyLang body="south" faceRef="Sad2">
                         <p>Wh... What?</p>
@@ -397,6 +399,7 @@
                         <p>You're... You're gonna make me cry again.</p>
                     </bodyLang>
                 </act>
+        </altScene>
                 <act speakerRef="AD">
                     <bodyLang body="south" faceRef="Hap1">
                         <p>... besides, even if you do forgive me...</p>
@@ -447,133 +450,120 @@
                         <p>To finally go free.</p>
                     </bodyLang>
                 </act>
-            </forgive>
-        </optionOne>
 
-        <postCutscene>
-            <position body="faced-right-down">
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Hap1">
-                        <p>Frisk...</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Neut1">
-                        <p>I have to go now.</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Hap1">
-                        <p>Without the power of everyone's souls...</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad3">
-                        <p>I can't keep maintaining this form.</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad3">
-                        <p>In a little while...</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad3">
-                        <p>I'll turn back into a flower.</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad3">
-                        <p>I'll stop being "myself."</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad3">
-                        <p>I'll stop being able to feel love again.</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad2">
-                        <p>So... Frisk.</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad2">
-                        <p>It's best of you just forget about me, OK?</p>
-                    </bodyLang>
-                </act>
-                <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Neut1">
-                        <p>Just go be with the people who love you.</p>
-                    </bodyLang>
-                </act>
-            </position>
-        </postCutscene>
-
-        <optionTwo>
-            <comfortHim>
-                <position body="hugging-Frisk">
-                    <p>Ha... ha...</p>
-                    <p>I don't want to let go...</p>
-                </position>
-                <position body="faced-right">
                     <act speakerRef="AD">
                         <bodyLang body="south" faceRef="Hap1">
                             <p>Frisk...</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Hap1">
-                            <p>You're..;</p>
-                        </bodyLang>
-                    </act>
-                    <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Hap2">
-                            <p>You're going to do a great job, OK?</p>
-                        </bodyLang>
-                    </act>
-                    <act speakerRef="AD">
                         <bodyLang body="south" faceRef="Neut1">
-                            <p>No matter what you do.</p>
-                        </bodyLang>
-                    </act>
-                    <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Neut1">
-                            <p>Everyone will be there for you, okay?</p>
-                        </bodyLang>
-                    </act>
-                </position>
-                <position body="turned">
-                    <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Hap1">
-                            <p>Well... My time's running out.</p>
+                            <p>I have to go now.</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
                         <bodyLang body="south" faceRef="Hap1">
-                            <p>Goodbye.</p>
-                        </bodyLang>
-                    </act>
-                </position>
-                <position body="facingPlayer">
-                    <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Neut1">
-                            <p>By the way...</p>
+                            <p>Without the power of everyone's souls...</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Neut1">
-                            <p>Frisk...</p>
+                        <bodyLang body="south" faceRef="Sad3">
+                            <p>I can't keep maintaining this form.</p>
+                        </bodyLang>
+                    </act>
+                    <act speakerRef="AD">
+                        <bodyLang body="south" faceRef="Sad3">
+                            <p>In a little while...</p>
+                        </bodyLang>
+                    </act>
+                    <act speakerRef="AD">
+                        <bodyLang body="south" faceRef="Sad3">
+                            <p>I'll turn back into a flower.</p>
+                        </bodyLang>
+                    </act>
+                    <act speakerRef="AD">
+                        <bodyLang body="south" faceRef="Sad3">
+                            <p>I'll stop being "myself."</p>
+                        </bodyLang>
+                    </act>
+                    <act speakerRef="AD">
+                        <bodyLang body="south" faceRef="Sad3">
+                            <p>I'll stop being able to feel love again.</p>
+                        </bodyLang>
+                    </act>
+                    <act speakerRef="AD">
+                        <bodyLang body="south" faceRef="Sad2">
+                            <p>So... Frisk.</p>
+                        </bodyLang>
+                    </act>
+                    <act speakerRef="AD">
+                        <bodyLang body="south" faceRef="Sad2">
+                            <p>It's best of you just forget about me, OK?</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
                         <bodyLang body="south" faceRef="Neut1">
-                            <p>...take care of Mom and Dad for me, OK?</p>
+                            <p>Just go be with the people who love you.</p>
                         </bodyLang>
                     </act>
-                </position>
-            </comfortHim>
-        </optionTwo>
-        </altScene>
+
+            <altScene choice="comfort">
+                        <act speakerRef="AD">
+                            <bodyLang body="east" faceRef="Hug">
+                                <p>Ha... ha...</p>
+                                <p>I don't want to let go...</p>
+                            </bodyLang>
+                        </act>
+            </altScene>
+                        <act speakerRef="AD">
+                            <bodyLang body="east" faceRef="Hap1">
+                                <p>Frisk...</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="east" faceRef="Hap1">
+                                <p>You're..;</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="east" faceRef="Hap2">
+                                <p>You're going to do a great job, OK?</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="east" faceRef="Neut1">
+                                <p>No matter what you do.</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="east" faceRef="Neut1">
+                                <p>Everyone will be there for you, okay?</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="north" faceRef="Hap1">
+                                <p>Well... My time's running out.</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="north" faceRef="Hap1">
+                                <p>Goodbye.</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="south" faceRef="Neut1">
+                                <p>By the way...</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="south" faceRef="Neut1">
+                                <p>Frisk...</p>
+                            </bodyLang>
+                        </act>
+                        <act speakerRef="AD">
+                            <bodyLang body="south" faceRef="Neut1">
+                                <p>...take care of Mom and Dad for me, OK?</p>
+                            </bodyLang>
+                        </act>
     </scene>
 </undertale>
