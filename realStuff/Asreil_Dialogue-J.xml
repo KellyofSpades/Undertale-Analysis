@@ -10,6 +10,7 @@
             <name xml:id="AD">Asreil Dreemur</name>
             <name xml:id="TD">Toriel Dreemur</name>
             <!--Expressions-->
+            <expr xml:id="Hap0">Devious/Evil Smile</expr>
             <expr xml:id="Hap2">Smiling</expr>
             <expr xml:id="Hap1">Excited</expr>
             <expr xml:id="Sad1">Crying</expr>
@@ -41,9 +42,9 @@
         </act>
 
         <battleStart type="boss" opRef="AD"/>
-        <battle phase="1">
+        <battle phase="1" type="defaultDemon">
             <act speakerRef="AD">
-                <bodyLang body="null" faceRef="Hap2">
+                <bodyLang faceRef="Hap0">
                     <p>You know...</p>
                     <p>I don't care about destroying this world anymore.</p>
                 </bodyLang>
@@ -53,7 +54,8 @@
                 <p>I just want to reset everything.</p>
             </act>
             <act speakerRef="AD">
-                <bodyLang>
+                <!-- tentative Mad2 -->
+                <bodyLang faceRef="Hap0">
                     <p>All your progress... Everyone's memories.</p>
                     <p>I'll bring them all back to zero!</p>
                 </bodyLang>
@@ -99,7 +101,7 @@
             </act>
         </battle>
 
-        <battle phase="2">
+        <battle phase="2" type="psychedelicDemon">
             <act speakerRef="AD">
                 <p>Urah ha ha ha... Behold my TRUE power!</p>
             </act>
@@ -123,7 +125,7 @@
             </act>
         </battle>
 
-        <battle phase="3">
+        <battle phase="3" type="wingedDemon">
             <act speakerRef="AD">
                 <p>Huh? What are you doing...!?</p>
             </act>
@@ -183,331 +185,331 @@
             </act>
         </battle>
         <battleEnd/>
-
+        <!-- turns normal -->
         <act speakerRef="AD">
-            <bodyLang body="null" faceRef="Sad1"/>
+            <bodyLang body="south" faceRef="Sad1"/>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>I'm so sorry</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut2">
+            <bodyLang faceRef="Neut2">
                 <p>I always was a crybaby, wasn't I, [Player's Name]?</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut2">
+            <bodyLang faceRef="Neut2">
                 <p>...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>... I know.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>You're not actually [Player's Name], are you?</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>[Player's Name] has been gone for a long time.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut2">
+            <bodyLang faceRef="Neut2">
                 <p>...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Se1">
+            <bodyLang faceRef="Se1">
                 <p>Um... what...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>What IS your name?</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut3">
+            <bodyLang faceRef="Neut3">
                 <p>...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap2">
+            <bodyLang faceRef="Hap2">
                 <p>"Frisk?"</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>That's...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>A nice name.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap1">
+            <bodyLang faceRef="Hap1">
                 <p>Frisk...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>I haven't felt like this for a long time.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>As a flower, I was soulless.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad3">
+            <bodyLang faceRef="Sad3">
                 <p>I lacked the power to love other people.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>However, with everyone's souls inside me...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap1">
+            <bodyLang faceRef="Hap1">
                 <p>I not only have my own compassion back...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>But I can feel every other monster's as well.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap1">
+            <bodyLang faceRef="Hap1">
                 <p>They all care about each other so much.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>And.. they care about you too, Frisk.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap1">
+            <bodyLang faceRef="Hap1">
                 <p>I wish I could tell you how everyone feels about you.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap1">
+            <bodyLang faceRef="Hap1">
                 <p>Papyrus... Sans... Undyne... Alphys...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap2">
+            <bodyLang faceRef="Hap2">
                 <p>... Toriel.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut2">
+            <bodyLang faceRef="Neut2">
                 <p>Monsters are weird.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>Even though they barely know you...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Neut1">
+            <bodyLang faceRef="Neut1">
                 <p>It feels like they all really love you.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap1">
+            <bodyLang faceRef="Hap1">
                 <p>Haha.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Hap1">
+            <bodyLang faceRef="Hap1">
                 <p>...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>Frisk... I... I understand if you can' forgive me.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>I understand if you hate me.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>I acted so strange and horrible.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>I hurt you.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>I hurt so many people.</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad3">
+            <bodyLang faceRef="Sad3">
                 <p>Friends, family, bystanders...</p>
             </bodyLang>
         </act>
         <act speakerRef="AD">
-            <bodyLang body="south" faceRef="Sad2">
+            <bodyLang faceRef="Sad2">
                 <p>There's no excuse for what I've done.</p>
             </bodyLang>
         </act>
 
-        <altScene choice="forgive">
+        <altScene route="pacifist" choice="forgive">
                 <act speakerRef="AD">
                     <bodyLang body="south" faceRef="Sad2">
                         <p>Wh... What?</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Hap1">
+                    <bodyLang faceRef="Hap1">
                         <p>... Frisk, come on.</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Neut1">
+                    <bodyLang faceRef="Neut1">
                         <p>You're... You're gonna make me cry again.</p>
                     </bodyLang>
                 </act>
         </altScene>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Hap1">
+                    <bodyLang faceRef="Hap1">
                         <p>... besides, even if you do forgive me...</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Sad2">
+                    <bodyLang faceRef="Sad2">
                         <p>I can't keep these souls inside of me.</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Neut1">
+                    <bodyLang faceRef="Neut1">
                         <p>The least I can do is return them.</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Se2">
+                    <bodyLang faceRef="Se2">
                         <p>But first...</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Mad3">
+                    <bodyLang faceRef="Mad3">
                         <p>There's something I have to do.</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Mad3">
+                    <bodyLang faceRef="Mad3">
                         <p>Right now, I can feel everyone's hearts beating as one.</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Mad3">
+                    <bodyLang faceRef="Mad3">
                         <p>They're all burning with the same desire.</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Mad3">
+                    <bodyLang faceRef="Mad3">
                         <p>With everyone's power... With everyone's determination.</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Mad3">
+                    <bodyLang faceRef="Mad3">
                         <p>It's time for monsters...</p>
                     </bodyLang>
                 </act>
                 <act speakerRef="AD">
-                    <bodyLang body="south" faceRef="Mad3">
+                    <bodyLang faceRef="Mad3">
                         <p>To finally go free.</p>
                     </bodyLang>
                 </act>
 
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Hap1">
+                        <bodyLang faceRef="Hap1">
                             <p>Frisk...</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Neut1">
+                        <bodyLang faceRef="Neut1">
                             <p>I have to go now.</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Hap1">
+                        <bodyLang faceRef="Hap1">
                             <p>Without the power of everyone's souls...</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Sad3">
+                        <bodyLang faceRef="Sad3">
                             <p>I can't keep maintaining this form.</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Sad3">
+                        <bodyLang faceRef="Sad3">
                             <p>In a little while...</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Sad3">
+                        <bodyLang faceRef="Sad3">
                             <p>I'll turn back into a flower.</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Sad3">
+                        <bodyLang faceRef="Sad3">
                             <p>I'll stop being "myself."</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Sad3">
+                        <bodyLang faceRef="Sad3">
                             <p>I'll stop being able to feel love again.</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Sad2">
+                        <bodyLang faceRef="Sad2">
                             <p>So... Frisk.</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Sad2">
+                        <bodyLang faceRef="Sad2">
                             <p>It's best of you just forget about me, OK?</p>
                         </bodyLang>
                     </act>
                     <act speakerRef="AD">
-                        <bodyLang body="south" faceRef="Neut1">
+                        <bodyLang faceRef="Neut1">
                             <p>Just go be with the people who love you.</p>
                         </bodyLang>
                     </act>
 
-            <altScene choice="comfort">
+            <altScene route="pacifist" choice="comfort">
                         <act speakerRef="AD">
                             <bodyLang body="east" faceRef="Hug">
                                 <p>Ha... ha...</p>
@@ -521,22 +523,22 @@
                             </bodyLang>
                         </act>
                         <act speakerRef="AD">
-                            <bodyLang body="east" faceRef="Hap1">
+                            <bodyLang faceRef="Hap1">
                                 <p>You're..;</p>
                             </bodyLang>
                         </act>
                         <act speakerRef="AD">
-                            <bodyLang body="east" faceRef="Hap2">
+                            <bodyLang faceRef="Hap2">
                                 <p>You're going to do a great job, OK?</p>
                             </bodyLang>
                         </act>
                         <act speakerRef="AD">
-                            <bodyLang body="east" faceRef="Neut1">
+                            <bodyLang faceRef="Neut1">
                                 <p>No matter what you do.</p>
                             </bodyLang>
                         </act>
                         <act speakerRef="AD">
-                            <bodyLang body="east" faceRef="Neut1">
+                            <bodyLang faceRef="Neut1">
                                 <p>Everyone will be there for you, okay?</p>
                             </bodyLang>
                         </act>
@@ -546,7 +548,7 @@
                             </bodyLang>
                         </act>
                         <act speakerRef="AD">
-                            <bodyLang body="north" faceRef="Hap1">
+                            <bodyLang faceRef="Hap1">
                                 <p>Goodbye.</p>
                             </bodyLang>
                         </act>
@@ -556,12 +558,12 @@
                             </bodyLang>
                         </act>
                         <act speakerRef="AD">
-                            <bodyLang body="south" faceRef="Neut1">
+                            <bodyLang faceRef="Neut1">
                                 <p>Frisk...</p>
                             </bodyLang>
                         </act>
                         <act speakerRef="AD">
-                            <bodyLang body="south" faceRef="Neut1">
+                            <bodyLang faceRef="Neut1">
                                 <p>...take care of Mom and Dad for me, OK?</p>
                             </bodyLang>
                         </act>

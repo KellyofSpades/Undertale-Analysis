@@ -7,9 +7,10 @@ refList = element refList {name+, expr+}
 name = element name {xmlid, text}
 xmlid = attribute xml:id {xsd:ID}
 expr = element expr {xmlid, text}
-scene = element scene {route, type, (act | battleStart | battle | battleEnd)*}
-altScene = element altScene {route, option, type, (act | battleStart | battle | battleEnd)*}
-option = attribute option {n}
+scene = element scene {route, type, (act | battleStart | battle | battleEnd | altScene)*}
+# look if required
+altScene = element altScene {route, choice, (act | battleStart | battle | battleEnd)*}
+choice = attribute choice {text}
 n = (xsd:integer)
 type = attribute type {text}
 route = attribute route {"genocide" | "neutral" | "pacifist" | "indestinct"}
@@ -30,7 +31,7 @@ refs = (xsd:IDREFS)
 # ----------------------------------------------
 
 act = element act {speakerRef, ((bodyLang, p*) | p*)}
-bodyLang = element bodyLang {body?, faceRef?, (p+ | empty)}
+bodyLang = element bodyLang {body?, faceRef, (p+ | empty)}
 body = attribute body {"north" | "east" | "south" | "west" | "null"}
 p = element p {punc?, quiver?, text+}
 quiver = attribute quiver {xsd:boolean}
