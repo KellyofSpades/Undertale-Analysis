@@ -17,7 +17,7 @@ route = attribute route {"genocide" | "neutral" | "pacifist" | "indestinct"}
 battleStart = element battleStart {type, opRef+, empty}
 battleEnd = element battleEnd {empty}
 # edit text later for mob types
-battle = element battle {phase, act*}
+battle = element battle {phase, type, act+}
 phase = attribute phase {xsd:integer}
 
 # Reference declarations------------------------

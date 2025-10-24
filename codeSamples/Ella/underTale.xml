@@ -1,22 +1,701 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<undertale path="genocide">
-    <speech>
-        <line character="chara" type="first_meeting">Greetings. I am Chara</line>
-        <line>Thank you. Your power awakened me from death.</line>
-        <line>My "human soul." My "determination." They were not mine, but YOURS.</line>
-        <line>At first, I was so confused. Our plan had failed, hadn't it? Why was I brought back to
-            life?</line>
-        <line>You. With your guidance. I realized the purpose of my reincarnation. Power.</line>
-        <line> Together, we eradicated the enemy and became strong. <stats>HP. ATK. DEF. GOLD. EXP.
-                LV.</stats></line>
-        <line>Every time a number increases, that feeling... That's me. "Chara."</line>
-        <line>Now, we have reached the absolute. There is nothing left for us here. Let us erase
-            this pointless world, and move on to the next.</line>
-    </speech>
-    <decision>
-        <choice type="erase" tone="satisfied">Right. You are a great partner. We'll be together forever, won't
-            we?</choice>
-        <choice type="do not" tone="angry">No...? Hmm... How curious. You must have misunderstood. SINCE WHEN
-            WERE YOU THE ONE IN CONTROL?</choice>
-    </decision>
+<?xml-model href="../../realStuff/undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<undertale>
+    <metadata>
+        <!-- name and emotion ref list -->
+        <!-- sep. file? -->
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <name xml:id="SN">Sans</name>
+            <!--Expressions-->
+            <expr xml:id="Hap2">Smiling</expr>
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            <expr xml:id="Mad3">Determined</expr>
+            <expr xml:id="Se2">Concerned</expr>
+        </refList>
+    </metadata>
+    <scene route="genocide" type="hallway">
+        <act speakerRef="SN">
+            <bodyLang body="west" faceRef="Hap2">
+                <p>heya</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>you've been busy, huh?</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>so, I've got a question for ya.</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>do you think even the worst person can change...?</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>that everybody can be a good person, if they just try</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>heh heh heh heh...</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>all right.</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>well, here's a better question.</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>do you wanna have a bad time?</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>'cause if you take another step forward...</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>you are REALLY not going to like what happens next.</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>welp.</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p>sorry, old lady.</p>
+            </bodyLang>
+        </act>
+        <act speakerRef="SN">
+            <bodyLang>
+                <p> this is why i never make promises.</p>
+            </bodyLang>
+        </act>
+        <battleStart type="boss" opRef="SN"/>
+        <battle phase="1" type="">
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>it's a beautiful day outside.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> birds are singing. flowers are blooming...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> on days like these, kids like you...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> should be burning in hell.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battle phase="2" type="">
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>here we go</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>what? you think im just gonna stand there and take it?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>our reports showed a massive anomaly in the timespace continuum.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>timelines jumping left and right. stopping and starting ...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>until suddenly, everything ends.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>heh heh heh...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>that's your fault. isn't it?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>you can't understand how this feels.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>knowing that one day, without any warning...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>it's all going to be reset.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>look. i gave up trying to go back a long time ago.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>and getting to the surface doesn't appeal anymore, either.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>cause even if we do...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>we'll just end up back here. without any memory of it. right?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>to be blunt...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>it makes it kind of hard to give it my all.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>...or is that just a poor excuse for being lazy...?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> hell if i know</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>all i know is... seeing what comes next...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> i can't afford not to care anymore.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battle phase="3" type="">
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>ugh... that being said... #nervous </p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>you, uh, really like swinging that thing around, huh?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> ...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> listen.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> i know you didn't answer me before, but...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> somewhere in there. i can feel it.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> there's a glimmer of a good person inside of you.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> the memory of someone who once wanted to do the right thing.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>someone who, in another time, might have even been...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>a friend?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>c'mon, buddy.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>do you remember me?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> please, if you're listening...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>let's forget all this, ok?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>just lay down your weapon, and...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> well, my job will be a lot easier.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <!-- *Sans is sparing you. -->
+        <battle phase="4" type="">
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>welp, it was worth a shot.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> guess you like doing things the hard way, huh?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> sounds strange, but before all this i was secretly hoping we could be
+                        friends.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> i always thought the anomaly was doing this cause they were unhappy.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>and when they got what they wanted, they would stop all this.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <!-- The REAL battle finally begins. -->
+        <battle phase="5" type="">
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> and maybe all they needed was... i dunno.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>some good food. some bad laughs. some nice friends</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> but that's ridiculous, right?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>yeah, you're the type of person who won't EVER be happy.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> you'll keep consuming timelines over and over, until...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> well.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> hey.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>take it from me, kid.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> someday...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> you gotta learn when to QUIT.</p>
+                </bodyLang>
+            </act>
+            <!-- Felt like a turning point. -->
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> and that day's TODAY.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>cause... y'see..</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>all this fighting is really tiring me out.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>and if you keep pushing me...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> then i'll be forced to use my special attack.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>yeah, my special attack. sound familiar?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>well, get ready. cause after the next move, i'm going to use it.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>so, if you don't wanna see it, now would be a good time to die.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>well, here goes nothing...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>are you ready?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>survive THIS, and i'll show you my special attack!</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>huff... puff... #tired</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>all right. that's it.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> it's time for my special attack.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>are you ready?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>here goes nothing.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>yep.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>that's right.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>it's literally nothing.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>and it's not gonna be anything, either.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> heh heh heh... ya get it?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>i know i can't beat you.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> one of your turns...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> you're just gonna kill me.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>so, uh.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>i've decided...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>it's not gonna BE your turn. ever.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>i'm just gonna keep having MY turn until you give up.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>even if it means we have to stand here until the end of time.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> capiche?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>you'll get bored here.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>if you haven't gotten bored already, i mean.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>and then, you'll finally quit.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>i know your type.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>you're, uh, very determined, aren't you?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> you'll never give up, even if there's, uh...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>absolutely NO benefit to persevering whatsoever.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> if i can make that clear.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>no matter what, you'll just keep going.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>not out of any desire for good or evil...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> but just because you think you can.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>and because you "can"...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> ...you "have to."</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>but now, you've reached the end.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>there is nothing left for you now.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> so, uh, in my personal opinion...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>the most "determined" thing you can do here?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>is to, uh, completely give up.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>and... (yawn) do literally anything else.</p>
+                </bodyLang>
+            </act>
+            <!-- Falls asleep -->
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> heh, didja really think you would be able</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> ...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>so...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>guess that's it, huh?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>just...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p>don't say i didn't warn you.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> welp.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> i'm going to grillby's.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="SN">
+                <bodyLang>
+                    <p> papyrus, do you want anything?</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    <scene route="genocide" type="throneRoom"></scene>
 </undertale>
