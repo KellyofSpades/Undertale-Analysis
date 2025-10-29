@@ -13,10 +13,10 @@
         </rule>
     </pattern>
     <pattern>
-        <rule context="@speakerRef">
-            <let name="tokens" value="for $w in tokenize(., '\s+') return substring-after($w, '#')"/>
-            <assert test="every $token in $tokens satisfies $token = //undertale//metadata//refList//@xml:id">
-                Every name (@speakerRef | @opRef | @faceRef) after the hashtag must match an xml:id defined in the refList in this file.
+        <rule context="act">
+            <let name="tokens" value="for $w in tokenize(@speakerRef, '\s+') return $w"/>
+            <assert test="every $token in $tokens satisfies $token =  ancestor::undertale/metadata//refList/name/@xml:id ! string()">
+                Every name (@speakerRef after the hashtag must match an xml:id defined in the refList in this file.
             </assert>
         </rule>
     </pattern>
