@@ -7,7 +7,8 @@ refList = element refList {name+, expr+}
 name = element name {xmlid, text}
 xmlid = attribute xml:id {xsd:ID}
 expr = element expr {xmlid, text}
-scene = element scene {route, type, (act | battleStart | battle | battleEnd | altScene)*}
+scene = element scene {speakerRef, route, type, (act | battleStart | battle | battleEnd | altScene)*}
+# SCENE: add speakerRef element (rm from ACT)
 # look if required
 altScene = element altScene {route, choice, (act | battleStart | battle | battleEnd)*}
 choice = attribute choice {text}
@@ -30,13 +31,12 @@ refs = (xsd:IDREFS)
 #ID/IDREF not the way?
 # ----------------------------------------------
 
-act = element act {speakerRef, ((bodyLang, p*) | p*)}
+act = element act {(bodyLang, p*) | p*}
+# ACT: changed from (speakerRef, (bodyLang, p*) | p*)
 bodyLang = element bodyLang {body?, faceRef, (p+ | empty)}
 body = attribute body {"north" | "east" | "south" | "west" | "null"}
-p = element p {punc?, quiver?, text+}
+p = element p {quiver?, text+}
+# P: removed punc
 quiver = attribute quiver {xsd:boolean}
-punc = attribute punc {"?" | "." | "!" | "..." | "null"}
+#punc = attribute punc {"?" | "." | "!" | "..." | "null"}
 #xmlidref = attribute xml:id {xsd:IDREF}
-
-#action = element action {choice}
-#choice = 
