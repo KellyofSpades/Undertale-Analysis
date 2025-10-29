@@ -33,7 +33,7 @@ refs = (xsd:IDREFS)
 
 act = element act {(bodyLang, p*) | p*}
 # ACT: changed from (speakerRef, (bodyLang, p*) | p*)
-bodyLang = element bodyLang {body?, faceRef, (p+ | empty)}
+bodyLang = element bodyLang {body?, faceRef?, (p+ | empty)}
 body = attribute body {"north" | "east" | "south" | "west" | "null"}
 p = element p {quiver?, text+}
 # P: removed punc
