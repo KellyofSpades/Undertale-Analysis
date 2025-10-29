@@ -10,7 +10,7 @@ expr = element expr {xmlid, text}
 scene = element scene {speakerRef, route, type, (act | battleStart | battle | battleEnd | altScene)*}
 # SCENE: add speakerRef element (rm from ACT)
 # look if required
-altScene = element altScene {route, choice, (act | battleStart | battle | battleEnd)*}
+altScene = element altScene {speakerRef, route, choice, (act | battleStart | battle | battleEnd)*}
 choice = attribute choice {text}
 n = (xsd:integer)
 type = attribute type {text}
