@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  font-family: Garamond, serif;
+}
+a {
+  color: red;
+  font-weight: bold;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: white; 
+}
+p {
+   color: white;
+}
+li {
+    color: white;
+}
+img{
+ width: 40%
+}
