@@ -14,7 +14,7 @@ altScene = element altScene {speakerRef, route, choice, (act | battleStart | bat
 choice = attribute choice {text}
 n = (xsd:integer)
 type = attribute type {text}
-route = attribute route {"genocide" | "neutral" | "pacifist" | "indestinct"}
+route = attribute route {"genocide" | "neutral" | "pacifist" | "indistinct"}
 
 battleStart = element battleStart {type, opRef+, empty}
 battleEnd = element battleEnd {empty}
