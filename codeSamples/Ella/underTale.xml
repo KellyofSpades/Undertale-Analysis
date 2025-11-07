@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../realStuff/undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <undertale>
     <metadata>
         <!-- name and emotion ref list -->
@@ -12,6 +11,9 @@
             <!--Expressions-->
             <expr xml:id="Hap1">Excited</expr>
             <expr xml:id="Hap2">Smiling</expr>
+            <expr xml:id="Hap3">Winking</expr>
+            <expr xml:id="Hap4">Smile with blood</expr>
+            <expr xml:id="Hap5">Cocky</expr>
             <expr xml:id="Neut1">Neutral</expr>
             <expr xml:id="Neut2">Calm with...</expr>
             <expr xml:id="Neut3">Thinking</expr>
@@ -21,6 +23,10 @@
             <expr xml:id="Sad2">Frowning. Sad...</expr>
             <expr xml:id="Sad3">Disappointed</expr>
             <expr xml:id="Mad3">Determined</expr>
+            <expr xml:id="Evil1">Sinister</expr>
+            <expr xml:id="Tired1">Tired</expr>
+            
+            
             
         </refList>
     </metadata>
@@ -71,7 +77,7 @@
             </bodyLang>
         </act>
         <act>
-            <bodyLang>
+            <bodyLang faceRef="Evil1">
                 <p>do you wanna have a bad time?</p>
             </bodyLang>
         </act>
@@ -101,7 +107,7 @@
             </bodyLang>
         </act>
         <battleStart type="boss" opRef="SN"/>
-        <battle phase="1" type="">
+        <battle phase="1" type="opening attack">
             <act>
                 <bodyLang>
                     <p>it's a beautiful day outside.</p>
@@ -123,19 +129,19 @@
                 </bodyLang>
             </act>
         </battle>
-        <battle phase="2" type="">
+        <battle phase="2" type="regular attacks">
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap2">
                     <p>here we go</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>what? you think im just gonna stand there and take it?</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap2">
                     <p>our reports showed a massive anomaly in the timespace continuum.</p>
                 </bodyLang>
             </act>
@@ -155,7 +161,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p>that's your fault. isn't it?</p>
                 </bodyLang>
             </act>
@@ -170,7 +176,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap5">
                     <p>it's all going to be reset.</p>
                 </bodyLang>
             </act>
@@ -190,12 +196,12 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p>we'll just end up back here. without any memory of it. right?</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap5">
                     <p>to be blunt...</p>
                 </bodyLang>
             </act>
@@ -210,12 +216,12 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p> hell if i know</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap5">
                     <p>all i know is... seeing what comes next...</p>
                 </bodyLang>
             </act>
@@ -225,10 +231,10 @@
                 </bodyLang>
             </act>
         </battle>
-        <battle phase="3" type="">
+        <battle phase="3" type="tired">
             <act>
-                <bodyLang>
-                    <p>ugh... that being said... #nervous </p>
+                <bodyLang faceRef="Se2">
+                    <p>ugh... that being said...</p>
                 </bodyLang>
             </act>
             <act>
@@ -308,14 +314,14 @@
             </act>
         </battle>
         <!-- *Sans is sparing you. -->
-        <battle phase="4" type="">
+        <battle phase="4" type="resolve">
             <act>
                 <bodyLang>
                     <p>welp, it was worth a shot.</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p> guess you like doing things the hard way, huh?</p>
                 </bodyLang>
             </act>
@@ -337,9 +343,9 @@
             </act>
         </battle>
         <!-- The REAL battle finally begins. -->
-        <battle phase="5" type="">
+        <battle phase="5" type="special attack">
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p> and maybe all they needed was... i dunno.</p>
                 </bodyLang>
             </act>
@@ -354,7 +360,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p>yeah, you're the type of person who won't EVER be happy.</p>
                 </bodyLang>
             </act>
@@ -374,7 +380,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>take it from me, kid.</p>
                 </bodyLang>
             </act>
@@ -395,7 +401,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap2">
                     <p>cause... y'see..</p>
                 </bodyLang>
             </act>
@@ -410,22 +416,22 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p> then i'll be forced to use my special attack.</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>yeah, my special attack. sound familiar?</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap5">
                     <p>well, get ready. cause after the next move, i'm going to use it.</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>so, if you don't wanna see it, now would be a good time to die.</p>
                 </bodyLang>
             </act>
@@ -435,18 +441,18 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>are you ready?</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p>survive THIS, and i'll show you my special attack!</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
-                    <p>huff... puff... #tired</p>
+                <bodyLang faceRef="Tired1">
+                    <p>huff... puff...</p>
                 </bodyLang>
             </act>
             <act>
@@ -460,7 +466,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>are you ready?</p>
                 </bodyLang>
             </act>
@@ -480,7 +486,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>it's literally nothing.</p>
                 </bodyLang>
             </act>
@@ -525,12 +531,12 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>i'm just gonna keep having MY turn until you give up.</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p>even if it means we have to stand here until the end of time.</p>
                 </bodyLang>
             </act>
@@ -550,17 +556,17 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p>and then, you'll finally quit.</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Evil1">
                     <p>i know your type.</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap5">
                     <p>you're, uh, very determined, aren't you?</p>
                 </bodyLang>
             </act>
@@ -570,7 +576,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>absolutely NO benefit to persevering whatsoever.</p>
                 </bodyLang>
             </act>
@@ -590,7 +596,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p> but just because you think you can.</p>
                 </bodyLang>
             </act>
@@ -620,7 +626,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>the most "determined" thing you can do here?</p>
                 </bodyLang>
             </act>
@@ -630,18 +636,18 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p>and... (yawn) do literally anything else.</p>
                 </bodyLang>
             </act>
             <!-- Falls asleep -->
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p> heh, didja really think you would be able</p>
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap4">
                     <p>...</p>
                 </bodyLang>
             </act>
@@ -686,7 +692,7 @@
                 </bodyLang>
             </act>
             <act>
-                <bodyLang>
+                <bodyLang faceRef="Hap3">
                     <p> i'm going to grillby's.</p>
                 </bodyLang>
             </act>
