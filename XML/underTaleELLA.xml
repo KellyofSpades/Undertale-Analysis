@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <undertale>
     <metadata>
         <!-- name and emotion ref list -->
