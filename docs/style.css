@@ -21,3 +21,8 @@ li {
 img{
  width: 40%
 }
+
+.navbar {
+  display: flex;
+  gap: 0.5rem;
+}
