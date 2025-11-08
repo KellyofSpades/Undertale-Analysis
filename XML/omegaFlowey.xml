@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <undertale>
     <metadata>
         <refList>
@@ -204,8 +204,9 @@
                 </bodyLang>
             </act>
         </battle>
-        <battleEnd/>
+        <battle phase="7" type="defeat">
         <!-- False Defeat -->
+        <!-- Watch video -->
         <act>
             <bodyLang>
                 <p>No... NO!!!</p>
@@ -218,7 +219,12 @@
         </act>
         <act>
             <bodyLang>
-                <p></p>
+                <p quiver="true">You... YOU...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>You IDIOT.</p>
             </bodyLang>
         </act>
         <act>
@@ -231,10 +237,358 @@
                 <p></p>
             </bodyLang>
         </act>
-        <act>
-            <bodyLang>
-                <p></p>
-            </bodyLang>
-        </act>
+        </battle>
+        <altScene choice="godOfThisWorld" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>Hee hee hee.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Did you REALLY think...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>You could defeat ME!?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>I am the GOD of this world.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>And YOU?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="runningIntoBullets" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>Hee hee hee.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Did you REALLY think...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>You... uh...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Would you STOP that?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Anyway, YOU!</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <battle phase="9" type="defeat">
+            <act>
+                <bodyLang>
+                    <p>You're HOPELESS.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Hopeless and alone...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>Golly, that's right!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Your WORTHLESS friends...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>...can't save you now.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Call for help. I dare you.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Cry into the darkness!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>"Mommy! Daddy!" "Somebody help!"</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>See what good it does you!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>But nobody came.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Boy! What a shame!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Nobody else...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Is gonna get to see you DIE!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>What?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>How'd you...?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Well, I'll just</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Wh...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Where are my powers!?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>The souls...?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>What are they doing?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>NO!! NO!!!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>YOU CAN'T DO THAT!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>YOU'RE SUPPOSED TO OBEY ME!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>STOP!!! STOP IT!!!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>STOOOOPPPP!!!!!</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <altScene choice="fight" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I knew you had it in you!</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyOne" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>What are you doing?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Do you really think I've learned anything from this?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>No.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyTwo" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>Sparing me won't change anything.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Killing me is the only way to end this.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyThree" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>If you let me live...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll come back.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyFour" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll kill you.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyFive" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll kill everyone.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercySix" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll kill everyone you love</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercySeven" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyEight" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyNine" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...why?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyTen" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...why are you being...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>...so nice to me?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyEleven" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>I can't understand.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyTwelve" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>I can't understand!</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyThirteen" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>I just can't understand...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>* Flowey ran away.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <battleEnd/>
     </scene>
 </undertale>
