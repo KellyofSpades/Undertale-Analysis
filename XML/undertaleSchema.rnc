@@ -19,11 +19,7 @@ route = attribute route {"genocide" | "neutral" | "pacifist" | "indistinct"}
 battleStart = element battleStart {type?, opRef+, empty}
 battleEnd = element battleEnd {empty}
 # edit text later for mob types
-<<<<<<< HEAD
-battle = element battle {phase?, type?, act+}
-=======
-battle = element battle {phase, type, (act+ | altScene*)}
->>>>>>> 8ce1a438cf31c114c4c7a2116a0987402197f027
+battle = element battle {phase?, type?, (act+ | altScene*)}
 phase = attribute phase {xsd:integer}
 
 # Reference declarations------------------------
@@ -35,7 +31,7 @@ refs = (xsd:IDREFS)
 #ID/IDREF not the way?
 # ----------------------------------------------
 
-act = element act {(bodyLang, p*) | p*}
+act = element act {speakerRef?, ((bodyLang, p*) | p*)}
 # ACT: changed from (speakerRef, (bodyLang, p*) | p*)
 bodyLang = element bodyLang { faceRef?, (p+ | empty)}
 p = element p {quiver?, text+}
