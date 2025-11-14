@@ -19,7 +19,11 @@ route = attribute route {"genocide" | "neutral" | "pacifist" | "indistinct"}
 battleStart = element battleStart {type?, opRef+, empty}
 battleEnd = element battleEnd {empty}
 # edit text later for mob types
+<<<<<<< HEAD
 battle = element battle {phase?, type?, act+}
+=======
+battle = element battle {phase, type, (act+ | altScene*)}
+>>>>>>> 8ce1a438cf31c114c4c7a2116a0987402197f027
 phase = attribute phase {xsd:integer}
 
 # Reference declarations------------------------
