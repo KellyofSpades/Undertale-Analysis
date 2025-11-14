@@ -28,13 +28,13 @@
     
     <scene speakerRef="AD" type="beforeBorder" route="pacifist">
         <act>
-            <bodyLang body="null" faceRef="Hap2">
+            <bodyLang faceRef="Hap2">
                 <p>Finally.</p>
                 <p>I was so tired of being a flower.</p>
             </bodyLang>
         </act>
         <act>
-            <bodyLang body="null" faceRef="Hap2">
+            <bodyLang faceRef="Hap2">
                 <p>Howdy!</p>
                 <p>[Player's Name], are you there?</p>
                 <p>It's me, your best friend</p>
@@ -187,7 +187,7 @@
         <battleEnd/>
         <!-- turns normal -->
         <act>
-            <bodyLang body="south" faceRef="Sad1"/>
+            <bodyLang faceRef="Sad1"/>
         </act>
         <act>
             <bodyLang faceRef="Sad2">
@@ -387,7 +387,7 @@
 
         <altScene speakerRef="AD" route="pacifist" choice="forgive">
                 <act>
-                    <bodyLang body="south" faceRef="Sad2">
+                    <bodyLang faceRef="Sad2">
                         <p>Wh... What?</p>
                     </bodyLang>
                 </act>
@@ -511,14 +511,14 @@
 
             <altScene speakerRef="AD" route="pacifist" choice="comfort">
                         <act>
-                            <bodyLang body="east" faceRef="Hug">
+                            <bodyLang faceRef="Hug">
                                 <p>Ha... ha...</p>
                                 <p>I don't want to let go...</p>
                             </bodyLang>
                         </act>
             </altScene>
                         <act>
-                            <bodyLang body="east" faceRef="Hap1">
+                            <bodyLang faceRef="Hap1">
                                 <p>Frisk...</p>
                             </bodyLang>
                         </act>
@@ -543,7 +543,7 @@
                             </bodyLang>
                         </act>
                         <act>
-                            <bodyLang body="north" faceRef="Hap1">
+                            <bodyLang faceRef="Hap1">
                                 <p>Well... My time's running out.</p>
                             </bodyLang>
                         </act>
@@ -553,7 +553,7 @@
                             </bodyLang>
                         </act>
                         <act>
-                            <bodyLang body="south" faceRef="Neut1">
+                            <bodyLang faceRef="Neut1">
                                 <p>By the way...</p>
                             </bodyLang>
                         </act>
