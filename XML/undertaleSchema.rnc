@@ -7,7 +7,7 @@ refList = element refList {name+, expr+}
 name = element name {xmlid, text}
 xmlid = attribute xml:id {xsd:ID}
 expr = element expr {xmlid, text}
-scene = element scene {speakerRef, route, type, (act | battleStart | battle | battleEnd | altScene)*}
+scene = element scene {speakerRef, route, type?, (act | battleStart | battle | battleEnd | altScene)*}
 # SCENE: add speakerRef element (rm from ACT)
 # look if required
 altScene = element altScene {speakerRef, route, choice, (act | battleStart | battle | battleEnd)*}
@@ -16,10 +16,10 @@ n = (xsd:integer)
 type = attribute type {text}
 route = attribute route {"genocide" | "neutral" | "pacifist" | "indistinct"}
 
-battleStart = element battleStart {type, opRef+, empty}
+battleStart = element battleStart {type?, opRef+, empty}
 battleEnd = element battleEnd {empty}
 # edit text later for mob types
-battle = element battle {phase, type, act+}
+battle = element battle {phase?, type?, act+}
 phase = attribute phase {xsd:integer}
 
 # Reference declarations------------------------
@@ -33,8 +33,7 @@ refs = (xsd:IDREFS)
 
 act = element act {(bodyLang, p*) | p*}
 # ACT: changed from (speakerRef, (bodyLang, p*) | p*)
-bodyLang = element bodyLang {body?, faceRef?, (p+ | empty)}
-body = attribute body {"north" | "east" | "south" | "west" | "null"}
+bodyLang = element bodyLang { faceRef?, (p+ | empty)}
 p = element p {quiver?, text+}
 # P: removed punc
 quiver = attribute quiver {xsd:boolean}
