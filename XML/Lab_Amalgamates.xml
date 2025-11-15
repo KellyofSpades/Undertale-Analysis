@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<undertale>
+    <metadata>
+        <refList>
+            <!-- True Lab Characters -->
+            <name xml:id="MH">Memoryhead</name>
+            <name xml:id="RB">Reaper Bird</name>
+            <name xml:id="AE">Amalgamate Endogney</name>
+            <name xml:id="LB">Lemon Bread</name>
+            <name xml:id="AW">Amalgamate Snowdrake</name>
+            <!-- True Lab Expressions -->
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Hap0">Twisted Smile</expr>
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+        </refList>
+    </metadata>
+    
+    <scene speakerRef="MH" type="leftSink" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>           drew near!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Come join the fun.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Come join the fun.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="RB" type="mirrorRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>,</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>[Unintelligible Dialogue]</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>[Unintelligible Dialogue]</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>[Unintelligible Dialogue]</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Someone finally remebers...</p>
+                    <p>Ribbit Ribbit.</p>
+                    <p>Courage...</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="AE" type="fanRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>It's the Amalgamate</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>You try looking away, but it seems to appear everywhere you look.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>You call the Amalgamate</p>
+                    <p>It bounds towards you, flecking a strange liquid from an orifice.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>You pet the Amalgamate. It convulses rapidly... Then calms down.</p>
+                    <p>It rests quietly on your lap for a moment...</p>
+                    <p>Zzzzz...</p>
+                    <p>Suddenly, it shoots away and crawls wildly on the walls!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap1">
+                    <p>You throw your weapon into the corner of the room.</p>
+                    <p>The Amalgamate brings it back to you... Proudly?</p>
+                    <p>You repeat this process a few times.</p>
+                    <p>Now Amalgamate is very tired... It leans its dripping, amorphous body on you...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap1">
+                    <p>You pet the Amalgamate. It starts to generate a Stage I Happiness Froth.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap1">
+                    <p>Amalgamate seems too tired to play.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>You pet decisively. The Amalgamate seems to be satisfied by all this.</p>
+                    <p>Endogeny is contented.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="LB" type="skullRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Smells like sweet lemons.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="AW" type="refridgeratorRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>It's so cold</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>haha... i...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>haha...</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+</undertale>
