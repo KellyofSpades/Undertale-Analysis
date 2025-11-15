@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<undertale>
+    <metadata>
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <name xml:id="FL">Flowey</name>
+            <name xml:id="AS">Asgore</name>
+            <!--Expressions-->
+            <expr xml:id="Neut0">Dead</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            
+            <expr xml:id="Hap0">Devious/Evil Smile</expr>
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+            
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            
+            <expr xml:id="Mad3">Determined</expr>
+            
+            <expr xml:id="Se0">Quirky</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Se2">Concerned</expr>
+            <expr xml:id="Se3">Mimics Asgore's face</expr>
+        </refList>
+    </metadata>
+    <scene speakerRef="AG" route="neutral" type="preFight">
+        <battleStart/>
+        <battle>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>(A strange light fills the room.)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>(Twilight is shining through the barrier.)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>(It seems your journey is finally over.)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>* (You're filled with DETERMINATION.^5)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>Human...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>It was nice to meet you.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Goodbye.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* ASGORE attacks!</p>
+            </bodyLang>
+        </act>
+        </battle>
+    </scene>
+    
+    <scene speakerRef="AG" route="neutral" type="meetAsgore">
+        <act>
+            <bodyLang>
+                <p>* Oh? * Is someone there?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Just a moment!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* I have almost finished watering these flowers.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Curious. * I've never seen a plant... * Cry before.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* ... Here we are!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Howdy! * How can I...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Oh.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E2* I so badly want to say, "would you like a cup of tea?"</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* But...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E3* You know how it is.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Nice day today, huh?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Birds are singing, flowers are blooming...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Perfect weather for a game of catch.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* You know what we must do.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* When you are ready, come into the next room.</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <scene speakerRef="AG" route="neutral" type="beforeBarrier">
+        <act>
+            <bodyLang>
+                <p>\E2* Just think of it like...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E0* A visit to the dentist.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Are you ready?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E3* If you are not, I understand.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E2* I am not ready either.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* ...</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <scene speakerRef="AG" route="neutral" type="asgoreB">
+        <act>
+            <bodyLang>
+                <p>* Asgore has low HP.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* ASGORE 80 ATK 80 DEF</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* But there was nothing to say.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* You quietly tell ASGORE you don't want to fight him.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* His hands tremble for a moment.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* You tell ASGORE that you don't want to fight him.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* His breathing gets funny for a moment.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* You firmly tell ASGORE to STOP fighting.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Recollection flashes in his eyes...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* ASGORE's ATTACK dropped! * ASGORE's DEFENSE dropped!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Seems talking won't do any more good.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* All you can do is FIGHT.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>* Dum dee dum...</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <scene speakerRef="AG" route="neutral" type="finalCutscene">
+        <act>
+            <bodyLang>
+                <p>So that is how it is.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E3Why... You...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I remember the day after my son died.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>The entire underground was devoid of hope.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>The future had once again been taken from us by the humans.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>In a fit of anger, I declared war.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I said that I would destroy any human that came here.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I would use their souls to become godlike...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>... and free us from this terrible prison.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Then, I would destroy humanity...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>And let monsters rule the surface, in peace.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Soon, the people's hopes returned.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>My wife, however, became disgusted with my actions.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>She left this place, never to be seen again.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Truthfully...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I do not want power.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I do not want to hurt anyone.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I just wanted everyone to have hope...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>But...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I cannot take this any longer.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I just want to see my wife.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I just want to see my child.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Please... Young one...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>This war has gone on long enough.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>You have the power...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Take my soul, and leave this cursed place.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E0After everything I have done to hurt you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E7You would rather stay down here and suffer...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E9Than live happily on the surface?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E6...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E1Human...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E7I promise you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E7For as long as you remain here...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E1My wife and I will take care of you as best we can.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E2We can sit in the living room, telling stories...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E1Eating butterscotch pie...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E2We could be like...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>\E8Like a family...</p>
+            </bodyLang>
+        </act>
+    </scene>
+</undertale>
