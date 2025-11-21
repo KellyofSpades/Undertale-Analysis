@@ -25,7 +25,7 @@
                     <a href="about.html">About</a>
                 </div>
                 <h1>Undertale Scene Analysis</h1>
-                <xsl:apply-templates select ="scene"/>
+                <xsl:apply-templates select =".//scene"/>
             </body>
         </html>
     </xsl:template>
