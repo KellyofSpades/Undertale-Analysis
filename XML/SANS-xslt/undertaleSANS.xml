@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<?xml-model href="../undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
 <undertale>
     <metadata>
         <!-- name and emotion ref list -->
@@ -712,7 +712,7 @@
         </battle>
         <battleEnd/>
     </scene>
-    <scene speakerRef="UN" route="genocide" type="throneRoom">
+    <scene speakerRef="UN" route="genocide" type="throne room">
         <act>
             <bodyLang faceRef="Hap2">
                 <p>...huh?</p>
@@ -784,7 +784,7 @@
         </battle>
         <battleEnd/>
     </scene>
-    <scene route="genocide" speakerRef="FL" type="throneRoom">
+    <scene route="genocide" speakerRef="FL" type="throne room">
             <act>
                 <bodyLang faceRef="Se2">
                     <p>See? I never betrayed you!</p>
@@ -827,7 +827,7 @@
             </act>
         <!-- Flowey dies. -->
     </scene>
-    <scene speakerRef="PL" route="genocide">
+    <scene speakerRef="PL" route="genocide" type="throne room">
         <act>
             <bodyLang faceRef="Hap2">
                 <p>Greeting</p>

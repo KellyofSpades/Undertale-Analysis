@@ -1,0 +1,12 @@
+.line {
+    margin-bottom: 1em;
+}
+.speaker {
+    font-weight: bold; font-size: 1.1em;
+}
+.expr {
+    color: blue; margin-top: 0.2em; margin-bottom: 0.2em;
+}
+.dialouge {
+    margin-left: 1em;
+}
