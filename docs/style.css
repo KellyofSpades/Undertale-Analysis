@@ -42,3 +42,26 @@ li {
 img{
  width: 40%
 }
+
+/* Character page styling */
+.content h2 {
+  text-decoration: underline;
+}
+
+.content p {
+  text-indent: .5rem;
+}
+
+.content div {
+  margin-top: 2rem;
+}
+
+.sceneBox {
+  border: 0.125rem solid white;
+  padding-left: 1rem;
+}
+
+.altSceneBox {
+  border: 0.125rem solid #e58602;
+  padding-left: 1rem;
+}

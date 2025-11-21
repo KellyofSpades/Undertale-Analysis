@@ -96,7 +96,7 @@
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p>Awww, you're feeling left out, aren't you?</p>
             </bodyLang>
         </act>
@@ -126,22 +126,22 @@
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p quiver="true">Monsters.</p>
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p quiver="true">Humans.</p>
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p quiver="true">Everyone.</p>
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p quiver="true">I'll show them all the REAL meaning of this world.</p>
             </bodyLang>
         </act>
@@ -153,7 +153,7 @@
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p quiver="true">It's gone FOREVER.</p>
             </bodyLang>
         </act>
@@ -165,7 +165,7 @@
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p quiver="true">But you were just too STUPID to make one!</p>
             </bodyLang>
         </act>
@@ -187,19 +187,19 @@
             </bodyLang>
         </act>
         <act>
-            <bodyLang faceRef="">
+            <bodyLang>
                 <p quiver="true">I'll SAVE over your own death.</p>
             </bodyLang>
         </act>
         <act>
-            <bodyLang bodyRef="">
+            <bodyLang>
                 <p quiver="true">So you can watch me tear you to bloody pieces...</p>
             </bodyLang>
         </act>
         <battleStart opRef="FL" type="boss"/>
         <battle phase="1" type="firstHelp">
             <act>
-                <bodyLang body="null">
+                <bodyLang>
                     <p></p><!--player window-->
                 </bodyLang>
             </act>
