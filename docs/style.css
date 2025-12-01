@@ -11,6 +11,13 @@ body {
   padding-left: 0.5rem;
 }
 
+.battleSelection {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
 a {
   color: #e58602;
   font-weight: bold;
