@@ -185,7 +185,9 @@
             </act>
         </battle>
         <battleEnd/>
+    </scene>
         <!-- turns normal -->
+    <scene speakerRef="AD" type="beforeBorderNormal" route="pacifist">
         <act>
             <bodyLang faceRef="Sad1"/>
         </act>
