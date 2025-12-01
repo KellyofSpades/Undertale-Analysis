@@ -33,13 +33,13 @@
     </xsl:template>
     
     <xsl:template match="scene">
-        <div class="sceneBox">
+        <div class="labCreature">
             <h2><xsl:value-of select="@type"/></h2> 
             <xsl:apply-templates select="descendant::p"/>
         </div>
     </xsl:template>
     <xsl:template match="altScene">
-        <div class="altSceneBox">
+        <div class="labCreature">
             <h2><xsl:value-of select="@choice"/></h2> 
             <xsl:apply-templates select="descendant::p"/>
         </div>
