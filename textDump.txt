@@ -5,5 +5,10 @@ https://hushbugger.github.io/dialogue/
 (paths and screenshots) https://drive.google.com/drive/folders/18jZ3vwt9o4RSwUspEuv256ASZdV1b-ED
 (Asset extraction) github.com/UnderminersTeam/UndertaleModTool/tree/0.8.3.0 
 
+Mercy font: https://www.deviantart.com/maxigamer/art/MERCY-Font-the-UNDERTALE-font-for-battle-buttons-590779512
+Determination fonts: https://www.behance.net/gallery/31268855/Determination-Better-Undertale-Font#
+Logo-font Generator: https://fontmeme.com/undertale-logo-font/
+
+
 idea:
 visualize paths?
