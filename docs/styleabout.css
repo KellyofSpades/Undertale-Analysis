@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  font-family: Garamond, serif;
+  margin: 0.5rem 1rem;
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+.battleSelection {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+a {
+  color: #e58602;
+  font-weight: bold;
+  transition: .2s;
+}
+
+a:hover {
+  color: white;
+}
+
+h1 {
+  color: orange;
+  margin-bottom: 0.125rem;
+}
+
+h2 {
+  color: white; 
+  font-size: 1.25rem;
+}
+
+p {
+   color: white;
+}
+
+li {
+    color: white;
+}
+
+img{
+ width: 40%
+}
+
+/* Character page styling */
+.content h2 {
+  text-decoration: underline;
+}
+
+.content p {
+  text-indent: .5rem;
+}
+
+.content div {
+  margin-top: 2rem;
+}
+
+.sceneBox {
+  border: 0.125rem solid white;
+  padding-left: 1rem;
+}
+
+.altSceneBox {
+  border: 0.125rem solid #e58602;
+  padding-left: 1rem;
+}
+.labCreature
+{
+  border: 0.125rem solid #006B4D;
+  padding-left: 1rem;
+}
