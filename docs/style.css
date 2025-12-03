@@ -44,10 +44,21 @@ p {
 
 li {
     color: white;
+    font-size: 1.25rem;
 }
 
 img{
  width: 40%
+}
+
+img#FriskFlowers
+{
+    width: 30%;
+}
+div.flex
+{
+    display: flex;
+    padding-left: 25em;
 }
 
 /* Character page styling */
