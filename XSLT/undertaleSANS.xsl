@@ -44,11 +44,7 @@
                 <xsl:variable name="sp" select="@speakerRef"/>
                 <xsl:value-of select="/undertale/metadata/refList/name[@xml:id=$sp]"/>
             </b>
-            <xsl:variable name="expr" select="bodyLang/@faceRef"/>
-            <span class="expr"> Expression: (
-                <xsl:value-of select="/undertale/metadata/refList/expr[@xml:id=$expr]"/> )
-            </span>
-            
+        
             <div class="dialouge">
                 <xsl:value-of select="bodyLang/p"/>
             </div>

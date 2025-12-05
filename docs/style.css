@@ -142,6 +142,7 @@ div.flex
 
 .content p {
   text-indent: .5rem;
+  
 }
 
 .content div {
@@ -161,4 +162,24 @@ div.flex
 {
   border: 0.125rem solid #006B4D;
   padding-left: 1rem;
+}
+
+.index-content h1{
+ text-align:center;
+  font-size: 1.75rem;
+  color:orange;
+}
+.index-content h2{
+  text-align:center;
+    font-size: 1.5rem;
+}
+.index-content p{
+  text-align:left;
+  width:50vw;
+  font-size: 1.5rem;
+}
+.index-content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
