@@ -29,11 +29,14 @@ a:hover {
 }
 
 h1 {
-  color: orange;
+  color: white;
   margin-bottom: 0.125rem;
-  padding-bottom: 0.75rem;
-  text-decoration: underline;
+  padding-bottom: 0.1rem;
+  border-bottom: solid;
+  border-color: orange;
+  width: fit-content;
 }
+
 
 h2 {
   color: white; 
