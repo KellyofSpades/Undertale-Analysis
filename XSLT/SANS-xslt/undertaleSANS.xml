@@ -110,7 +110,7 @@
         </act>
         <act>
             <bodyLang faceRef="Se3">
-                <p> this is why i never make promises.</p>
+                
             </bodyLang>
         </act>
         <battleStart type="boss" opRef="SN"/>
@@ -712,7 +712,7 @@
         </battle>
         <battleEnd/>
     </scene>
-    <scene speakerRef="UN" route="genocide" type="throne room">
+    <scene speakerRef="TD" route="genocide" type="throne room">
         <act>
             <bodyLang faceRef="Hap2">
                 <p>...huh?</p>

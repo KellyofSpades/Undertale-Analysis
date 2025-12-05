@@ -25,13 +25,37 @@ body {
   /* border: 0.25rem white solid; */
 }
 
-.gif {
+.character-box {
+  image-rendering: pixelated;
+  margin-top: 20vh;
+  margin-bottom: 4vh;
+  width: 70vw;
+  height: 40vh;
+  /* border: 1px solid orange; */
+  background-image: url('images/undertale-logo-full.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.character-box:has(+ .index-nav:hover a.about-button:hover) {
+  background-image: url('images/Froggit_battle_idle.gif');
+  background-size: 20%;
+  background-position: center;
+}
+
+.character-box:has(+ .index-nav:hover a.research-button:hover) {
+  background-image: url('images/undertale-alphys.gif');
+  background-size: 30%;
+  background-position: center;
+}
+
+/* .gif {
   image-rendering: pixelated;
   margin-top: 20vh;
   margin-bottom: 2vh;
   width: 70vw;
-  /* border: 0.25rem white solid; */
-}
+  /* border: 0.25rem white solid;} */
 
 .index-nav {
   width: 80vw;

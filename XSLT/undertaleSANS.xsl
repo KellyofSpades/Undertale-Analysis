@@ -14,7 +14,7 @@
             <head>
                 <title>Sans</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="stylesheet" type="text/css" href="undertaleSANS.css"/>
+                <link rel="stylesheet" type="text/css" href="style.css"/>
             </head>
             
             <body>
@@ -24,30 +24,27 @@
                     <a href="sources.html">Sources</a>
                     <a href="about.html">About</a>
                 </div>
-                <h1>Undertale Scene Analysis</h1>
-                <xsl:apply-templates select =".//scene"/>
+                <h1>Sans</h1>
+                <section class="content">
+                    <xsl:apply-templates select ="descendant::scene"/>
+                    <xsl:apply-templates select="descendant::altScene"/>
+                </section>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="scene">
-        <h2>Route: <xsl:value-of select="@route"/></h2>
-        <h3>Scene Type: <xsl:value-of select="@type"/></h3>
-        
-        <div>
-            <h3>Dialouge</h3>
-            <xsl:apply-templates select="act"/>
+        <div class="sceneBox">
+            <h2><xsl:value-of select="@type"/></h2>
+            <xsl:apply-templates select="descendant::p"/>
         </div>
     </xsl:template>
-    <xsl:template match="act">
-        
-            <b>
-                <xsl:variable name="sp" select="@speakerRef"/>
-                <xsl:value-of select="/undertale/metadata/refList/name[@xml:id=$sp]"/>
-            </b>
-        
-            <div class="dialouge">
-                <xsl:value-of select="bodyLang/p"/>
-            </div>
-        
+    <xsl:template match="altScene">
+        <div class="altSceneBox">
+            <h2><xsl:value-of select="@choice"/></h2>
+            <xsl:apply-templates select="descendant::p"/>
+        </div>
+    </xsl:template>
+    <xsl:template match="p">
+       <p><xsl:apply-templates/></p>
     </xsl:template>
 </xsl:stylesheet>
