@@ -49,7 +49,7 @@
         </act>
         <act>
             <bodyLang faceRef="Sad3">
-                <p>* (You're filled with DETERMINATION.^5)</p>
+                <p> (You're filled with DETERMINATION.^5)</p>
             </bodyLang>
         </act>
         <act>
@@ -69,7 +69,7 @@
         </act>
         <act>
             <bodyLang>
-                <p>* ASGORE attacks!</p>
+                <p> ASGORE attacks!</p>
             </bodyLang>
         </act>
         </battle>
@@ -78,176 +78,176 @@
     <scene speakerRef="AG" route="neutral" type="meetAsgore">
         <act>
             <bodyLang>
-                <p>* Oh? * Is someone there?</p>
+                <p> Oh?  Is someone there?</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Just a moment!</p>
+                <p> Just a moment!</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* I have almost finished watering these flowers.</p>
+                <p> I have almost finished watering these flowers.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Curious. * I've never seen a plant... * Cry before.</p>
+                <p> Curious.  I've never seen a plant...  Cry before.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* ... Here we are!</p>
+                <p> ... Here we are!</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Howdy! * How can I...</p>
+                <p> Howdy!  How can I...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Oh.</p>
+                <p> Oh.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E2* I so badly want to say, "would you like a cup of tea?"</p>
+                <p> I so badly want to say, "would you like a cup of tea?"</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* But...</p>
+                <p> But...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E3* You know how it is.</p>
+                <p> You know how it is.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Nice day today, huh?</p>
+                <p> Nice day today, huh?</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Birds are singing, flowers are blooming...</p>
+                <p> Birds are singing, flowers are blooming...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Perfect weather for a game of catch.</p>
+                <p> Perfect weather for a game of catch.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* You know what we must do.</p>
+                <p> You know what we must do.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* When you are ready, come into the next room.</p>
+                <p> When you are ready, come into the next room.</p>
             </bodyLang>
         </act>
     </scene>
     <scene speakerRef="AG" route="neutral" type="beforeBarrier">
         <act>
             <bodyLang>
-                <p>\E2* Just think of it like...</p>
+                <p> Just think of it like...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E0* A visit to the dentist.</p>
+                <p> A visit to the dentist.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Are you ready?</p>
+                <p> Are you ready?</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E3* If you are not, I understand.</p>
+                <p> If you are not, I understand.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E2* I am not ready either.</p>
+                <p> I am not ready either.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* ...</p>
+                <p> ...</p>
             </bodyLang>
         </act>
     </scene>
     <scene speakerRef="AG" route="neutral" type="asgoreB">
         <act>
             <bodyLang>
-                <p>* Asgore has low HP.</p>
+                <p> Asgore has low HP.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* ASGORE 80 ATK 80 DEF</p>
+                <p> ASGORE 80 ATK 80 DEF</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* But there was nothing to say.</p>
+                <p> But there was nothing to say.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* You quietly tell ASGORE you don't want to fight him.</p>
+                <p> You quietly tell ASGORE you don't want to fight him.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* His hands tremble for a moment.</p>
+                <p> His hands tremble for a moment.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* You tell ASGORE that you don't want to fight him.</p>
+                <p> You tell ASGORE that you don't want to fight him.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* His breathing gets funny for a moment.</p>
+                <p> His breathing gets funny for a moment.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* You firmly tell ASGORE to STOP fighting.</p>
+                <p> You firmly tell ASGORE to STOP fighting.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Recollection flashes in his eyes...</p>
+                <p> Recollection flashes in his eyes...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* ASGORE's ATTACK dropped! * ASGORE's DEFENSE dropped!</p>
+                <p> ASGORE's ATTACK dropped!  ASGORE's DEFENSE dropped!</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Seems talking won't do any more good.</p>
+                <p> Seems talking won't do any more good.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* All you can do is FIGHT.</p>
+                <p> All you can do is FIGHT.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>* Dum dee dum...</p>
+                <p> Dum dee dum...</p>
             </bodyLang>
         </act>
     </scene>
@@ -264,7 +264,7 @@
         </act>
         <act>
             <bodyLang>
-                <p>\E3Why... You...</p>
+                <p>Why... You...</p>
             </bodyLang>
         </act>
         <act>
@@ -389,62 +389,62 @@
         </act>
         <act>
             <bodyLang>
-                <p>\E0After everything I have done to hurt you...</p>
+                <p>After everything I have done to hurt you...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E7You would rather stay down here and suffer...</p>
+                <p>You would rather stay down here and suffer...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E9Than live happily on the surface?</p>
+                <p>Than live happily on the surface?</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E6...</p>
+                <p>...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E1Human...</p>
+                <p>Human...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E7I promise you...</p>
+                <p>I promise you...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E7For as long as you remain here...</p>
+                <p>For as long as you remain here...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E1My wife and I will take care of you as best we can.</p>
+                <p>My wife and I will take care of you as best we can.</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E2We can sit in the living room, telling stories...</p>
+                <p>We can sit in the living room, telling stories...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E1Eating butterscotch pie...</p>
+                <p>Eating butterscotch pie...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E2We could be like...</p>
+                <p>We could be like...</p>
             </bodyLang>
         </act>
         <act>
             <bodyLang>
-                <p>\E8Like a family...</p>
+                <p>Like a family...</p>
             </bodyLang>
         </act>
     </scene>

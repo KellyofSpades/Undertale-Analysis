@@ -16,6 +16,16 @@ body {
   padding-left: 0.5rem;
 }
 
+.key {
+  position: sticky;
+  top: 0;
+}
+
+.key ul {
+  list-style-type: none;
+  text-align: right;
+}
+
 /* Index page */
 .game-box {
   height: 100vh;
