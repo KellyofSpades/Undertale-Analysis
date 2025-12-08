@@ -183,3 +183,33 @@ div.flex
     flex-direction: column;
     align-items:center;
 }
+.MK{
+  border-color:white;  
+}
+.UN{
+  border-color:blue;  
+}
+p.one {
+  border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem;
+  border-color: blue;
+}
+p.two{
+   border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem; 
+  border-color: blue;
+}
+p.three{
+   border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem;  
+  border-color: blue;
+}
+p.four{
+  border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem;  
+  border-color: blue;
+}
