@@ -39,7 +39,7 @@
         </refList>
     </metadata>
 
-    <scene route="genocide" speakerRef="MK" type="Water Fall Bridge">
+    <scene route="genocide" speakerRef="MK" type="waterFallBridge">
         <act>
             <bodyLang faceRef="Se2">
                 <p>Yo.</p>

@@ -168,11 +168,6 @@ div.flex
   border: 0.125rem solid #e58602;
   padding-left: 1rem;
 }
-.labCreature
-{
-  border: 0.125rem solid #006B4D;
-  padding-left: 1rem;
-}
 
 .index-content h1{
  text-align:center;
@@ -192,4 +187,34 @@ div.flex
     display: flex;
     flex-direction: column;
     align-items:center;
+}
+.MK{
+  border-color:white;  
+}
+.UN{
+  border-color:blue;  
+}
+p.one {
+  border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem;
+  border-color: blue;
+}
+p.two{
+   border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem; 
+  border-color: blue;
+}
+p.three{
+   border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem;  
+  border-color: blue;
+}
+p.four{
+  border-bottom: dotted;
+  border-width: thick;
+  padding-left: 1rem;  
+  border-color: blue;
 }
