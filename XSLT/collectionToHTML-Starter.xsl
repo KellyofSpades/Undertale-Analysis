@@ -12,7 +12,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Asgore Ending</title>
+                <title>Asreil Dreemur</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="stylesheet" type="text/css" href="style.css"/>
             </head>
@@ -23,7 +23,7 @@
                     <a href="sources.html">Sources</a>
                     <a href="about.html">About</a>
                 </div>
-                <h1>Asgore</h1>
+                <h1>Asreil Dreemur</h1>
                 <section class="content">
                     <xsl:apply-templates select="descendant::scene"/>
                     <xsl:apply-templates select="descendant::altScene"/>
