@@ -38,12 +38,21 @@
             <xsl:apply-templates select="descendant::p"/>
         </div>
     </xsl:template>
+    
+    <xsl:template match="battle">
+        <div class="sceneBox">
+            <h2><xsl:value-of select="@type"/></h2> 
+            <xsl:apply-templates select="child::p"/>
+        </div>
+    </xsl:template>
+    
     <xsl:template match="altScene">
         <div class="altSceneBox">
             <h2><xsl:value-of select="@choice"/></h2> 
             <xsl:apply-templates select="descendant::p"/>
         </div>
     </xsl:template>
+    
     <xsl:template match="p">
         <p>
             <xsl:apply-templates/>
