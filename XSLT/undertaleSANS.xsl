@@ -35,16 +35,22 @@
     <xsl:template match="scene">
         <div class="sceneBox">
             <h2><xsl:value-of select="@type"/></h2>
-            <xsl:apply-templates select="descendant::p"/>
+            <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="altScene">
         <div class="altSceneBox">
             <h2><xsl:value-of select="@choice"/></h2>
-            <xsl:apply-templates select="descendant::p"/>
+            <xsl:apply-templates/>
         </div>
     </xsl:template>
     <xsl:template match="p">
        <p><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="battle ">
+        <div class="phaseBox {@type ! tokenize(., '\s')[1] || @type ! tokenize(., '\s')[2]}">
+         <h3>Phase: <xsl:value-of select="@type"/></h3> 
+         <p><xsl:apply-templates select="descendant::p"/></p>
+        </div>
     </xsl:template>
 </xsl:stylesheet>
