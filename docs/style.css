@@ -122,6 +122,11 @@ h2 {
   font-size: 1.25rem;
 }
 
+h3 {
+  color: white;
+  font-size: 1.15rem;
+}
+
 p {
    color: white;
 }
@@ -166,6 +171,11 @@ div.flex
 
 .altSceneBox {
   border: 0.125rem solid #e58602;
+  padding-left: 1rem;
+}
+
+.phaseBox h3 {
+  border: 0.125rem solid #e502b0;
   padding-left: 1rem;
 }
 
