@@ -48,9 +48,9 @@
        <p><xsl:apply-templates/></p>
     </xsl:template>
     <xsl:template match="battle ">
-        <div class="phaseBox {@type ! tokenize(., '\s')[1] || @type ! tokenize(., '\s')[2]}">
-         <h3>Phase: <xsl:value-of select="@type"/></h3> 
-         <p><xsl:apply-templates select="descendant::p"/></p>
+        <div class="phaseBox"> <!--{@type ! tokenize(., '\s')[1] || @type ! tokenize(., '\s')[2]}"-->    
+         <h3>Phase: <xsl:value-of select="@type => replace(' ','')"/></h3> 
+         <xsl:apply-templates select="descendant::p"/>
         </div>
     </xsl:template>
 </xsl:stylesheet>
