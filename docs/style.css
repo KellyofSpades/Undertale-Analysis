@@ -37,6 +37,13 @@ body {
   font-size: .85rem;
 }
 
+.key li.alt-speaker-one {
+  border: 0.125rem solid blue;
+  background-color: black;
+}
+
+/* NOTE: any additions to key should go immediately after the speaker <li> or styles will be misalligned */
+
 /* Header decoration */
 .key li:nth-child(1) {
   font-size: 1.15rem;
@@ -53,13 +60,13 @@ body {
 }
 
 /* Phase scene decoration */
-.key li:nth-child(3) {
+.key li:nth-last-child(2) {
   border: 0.125rem solid #e502b0;
   background-color: black;
 }
 
 /* Alternate scene decoration */
-.key li:nth-child(4) {
+.key li:nth-last-child(1) {
   border: 0.125rem solid #e58602;
   background-color: black;
 }
