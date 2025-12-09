@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../undertaleSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<undertale>
+    <metadata>
+        <!-- name and emotion ref list -->
+        <!-- sep. file? -->
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <name xml:id="SN">Sans</name>
+            <name xml:id="UN">Undyne the Undying</name>
+            <name xml:id="FL">Flowey</name>
+            <name xml:id="PL">Player</name>
+            <name xml:id="MK">Monster Kid</name>
+
+
+            <!--Expressions-->
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+            <expr xml:id="Hap3">Winking</expr>
+            <expr xml:id="Hap4">Smile with blood</expr>
+            <expr xml:id="Hap5">Cocky</expr>
+            <expr xml:id="Neu0">Innocent</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Se2">Concerned smile</expr>
+            <expr xml:id="Se3"> Smiling with eyes closed</expr>
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            <expr xml:id="Mad3">Determined</expr>
+            <expr xml:id="Evil1">Sinister</expr>
+            <expr xml:id="Evil2">Insane smile</expr>
+            <expr xml:id="Tired1">Tired</expr>
+            <expr xml:id="NULL">No face, not on screen</expr>
+        </refList>
+    </metadata>
+
+    <scene route="genocide" speakerRef="MK" type="Water Fall Bridge">
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Yo.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Undyne told me to stay away from you</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>She said you... you hurt a lot of people.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>But, yo, that's not true, right!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>... yo... Why won't you answer me?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>A... a... and what's with that weird expression...?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Oh... Oh man...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>(Man, my h-hearts pounding right out of my chest...)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>(...what would Undyne do?)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>(...)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Yo...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Y-you'd b-better st-stop r-right where you are...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Cause if you w-wanna hurt anyone else... you're..</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>You're gonna have to get through me, first.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>A...and... and...</p>
+            </bodyLang>
+        </act>
+        <battleStart opRef="MK"/>
+        <battle>
+            <act speakerRef="MK">
+                <bodyLang faceRef="Mad3">
+                    <p>In my way. </p>
+                </bodyLang>
+            </act>
+            <act speakerRef="MK">
+                <bodyLang faceRef="Sad2">
+                    <p> Undyne... You're... You're hurt... </p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Hap2">
+                    <p> Hurt? It's nothing.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Hap2">
+                    <p>Next time, listen when I tell you to leave, okay?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="MK">
+                <bodyLang faceRef="Sad2">
+                    <p>Undyne... I...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Mad3">
+                    <p>I'll take care of this!</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Mad3">
+                    <p>Get out of here!</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+        <battleStart opRef="UN"/>
+        <battle>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>...heh... "It's nothing"...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>No... s-somehow with just one hit...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> I'm already...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> Already...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>D... damn it...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> Papyrus... Alphys... ASGORE...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>Just like that, I...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> I've failed you.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> ...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> No...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> My body... It feels like it's splitting apart.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> Like any instant... I'll scatter into a million pieces.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> But...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>Deep, deep, in my soul.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>There's a burning feeling I can't describe.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>A burning feeling that WON'T let me die.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>This isn't about monsters anymore, is it?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>If you get past me, you'll...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>You'll destroy them all, won't you?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>Monsters... Humans... Everyone...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>Everone's hopes. Everyone's dreams. Vanquished in an instant.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>But I WON'T let you do that.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>Right now, everyone in the world...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p> I can feel their hearts beating as one.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>And we all have ONE goal.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>To defeat YOU.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>Human. No, WHATEVER you are.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>For the sake of the whole world...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>I, UNDYNE, will strike you down!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>You're gonna have to try a little harder than THAT.</p>
+            </bodyLang>
+        </act>
+        <!-- battle ensues without text for a while -->
+        <act>
+            <bodyLang faceRef="Tired1">
+                <p> Damn it...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Tired1">
+                <p> So even THAT power... It wasn't enough...?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Tired1">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>Heh...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>Heheheh...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>If you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>If you think I'm gonna give up hope, you're wrong.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>'Cause I've... got my friends behind me.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p>Alphys told me that she would watch me fight you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p>And if anything went wrong, she would... evacuate everyone,</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p> By now she's called ASGORE and told him to absorb the 6 human SOULS.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>And with that power...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>This world will live on...!</p>
+            </bodyLang>
+        </act>
+        <battleEnd/>
+    </scene>
+</undertale>

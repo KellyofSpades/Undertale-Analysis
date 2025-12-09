@@ -18,12 +18,50 @@ body {
 
 .key {
   position: sticky;
-  top: 0;
+  top: 8vh;
+  /* border: 1px solid #e58602; */
+  /* background-color: black; */
 }
 
 .key ul {
+  position: absolute;
+  transform: translate(82vw, -8vh);
   list-style-type: none;
   text-align: right;
+  /* line-height: 1rem; */
+}
+
+.key li {
+  text-align: center;
+  line-height: 1.6rem;
+  font-size: .85rem;
+}
+
+/* Header decoration */
+.key li:nth-child(1) {
+  font-size: 1.15rem;
+  padding-right: 0.25rem;
+  padding-bottom: 0.25rem;
+  background-color: none;
+  text-align: right;
+}
+
+/* Speaker decoration */
+.key li:nth-child(2) {
+  border: 0.125rem solid white;
+  background-color: black;
+}
+
+/* Phase scene decoration */
+.key li:nth-child(3) {
+  border: 0.125rem solid #e502b0;
+  background-color: black;
+}
+
+/* Alternate scene decoration */
+.key li:nth-child(4) {
+  border: 0.125rem solid #e58602;
+  background-color: black;
 }
 
 /* Index page */
