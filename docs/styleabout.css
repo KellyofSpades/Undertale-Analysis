@@ -102,3 +102,19 @@ p.four{
   border: 0.125rem solid #006B4D;
   padding-left: 1rem;
 }
+.grid-container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:20px;
+    padding:20px
+}
+.grid-item{
+    text-align:center;
+}
+.grid-item img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
