@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<about>
+    <title>Our Process</title>
+    <team>
+        <description>We are a small team working to encode and organize the text from the video
+            game Undertale so we can analyze the differences between its three routes: Genocide,
+            Neutral, and Pacifist. </description>
+    </team>
+    <purpose>
+        <description>We document, analyze, and publish structured data about Undertale — including
+            dialogues and battles — using XML/XSLT for clarity and
+            structure</description>
+    </purpose>
+    <process>
+        <step id="1">We created and refined an XML schema to represent characters, fights, dialogues and other data.</step>
+        <step id="2">To create readable webpages from XML data, we used XSLT + HTML/CSS. (Inserting XSLT/HTML pages as seen in commits.)</step>
+        <step id="3">We contributed data: character info, dialogues, battle definitions, plot content, etc., using XML.</step>
+        <step id="4">In order to make the website usable and comprehensible, we modifed the styling, layout, navigation, and page structure.</step>
+        <step id="5">We updated documentation, correct structure issues, remove deprecated attributes, increase readability and maintainability. (Commits marked "docs changes, removals, schema updates").</step>
+        <step id="6">We tested output, repaired issues, improved schema or the layout as needed. In this repetitive process, each commit is a snapshot.</step>
+    </process>
+    <tools>
+        <tool>XML</tool>
+        <tool>XSLT</tool>
+        <tool>HTML/CSS</tool>
+        <tool>Git/GitHub</tool>
+    </tools>
+</about>
