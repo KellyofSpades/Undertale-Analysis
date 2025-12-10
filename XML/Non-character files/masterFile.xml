@@ -1,0 +1,3220 @@
+<?xml version="1.0" encoding="UTF-8"?><masterFile><undertale file="undertaleSANS.xml">
+    <metadata>
+        <!-- name and emotion ref list -->
+        <!-- sep. file? -->
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <name xml:id="SN">Sans</name>
+            <name xml:id="UN">Undyne the Undying</name>
+            <name xml:id="FL">Flowey</name>
+            <name xml:id="PL">Player</name>
+            <!--Expressions-->
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+            <expr xml:id="Hap3">Winking</expr>
+            <expr xml:id="Hap4">Smile with blood</expr>
+            <expr xml:id="Hap5">Cocky</expr>
+            <expr xml:id="Neu0">Innocent</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Se2">Concerned smile</expr>
+            <expr xml:id="Se3"> Smiling with eyes closed</expr>
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            <expr xml:id="Mad3">Determined</expr>
+            <expr xml:id="Evil1">Sinister</expr>
+            <expr xml:id="Tired1">Tired</expr>
+            <expr xml:id="NULL">No face, not on screen</expr>
+
+
+
+        </refList>
+    </metadata>
+    <scene speakerRef="SN" route="genocide" type="hallway">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>heya</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p>you've been busy, huh?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>so, I've got a question for ya.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>do you think even the worst person can change...?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>that everybody can be a good person, if they just try</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>heh heh heh heh...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>all right.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>well, here's a better question.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>do you wanna have a bad time?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>'cause if you take another step forward...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>you are REALLY not going to like what happens next.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>welp.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>sorry, old lady.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                
+            </bodyLang>
+        </act>
+        <battleStart type="boss" opRef="SN"/>
+        <battle phase="1" type="opening attack">
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>it's a beautiful day outside.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> birds are singing. flowers are blooming...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> on days like these, kids like you...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p> should be burning in hell.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battle phase="2" type="regular attacks">
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>here we go</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>what? you think im just gonna stand there and take it?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>our reports showed a massive anomaly in the timespace continuum.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>timelines jumping left and right. stopping and starting ...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>until suddenly, everything ends.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>heh heh heh...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p>that's your fault. isn't it?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>you can't understand how this feels.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>knowing that one day, without any warning...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>it's all going to be reset.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>look. i gave up trying to go back a long time ago.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>and getting to the surface doesn't appeal anymore, either.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>cause even if we do...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p>we'll just end up back here. without any memory of it. right?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>to be blunt...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>it makes it kind of hard to give it my all.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>...or is that just a poor excuse for being lazy...?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> hell if i know</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>all i know is... seeing what comes next...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p> i can't afford not to care anymore.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battle phase="3" type="tired">
+            <!--begins sweating-->
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>ugh... that being said...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>you, uh, really like swinging that thing around, huh?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p> ...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> listen.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> i know you didn't answer me before, but...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> somewhere in there. i can feel it.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p> there's a glimmer of a good person inside of you.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p> the memory of someone who once wanted to do the right thing.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>someone who, in another time, might have even been...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>a friend?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>c'mon, buddy.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>do you remember me?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> please, if you're listening...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>let's forget all this, ok?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>just lay down your weapon, and...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> well, my job will be a lot easier.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <!-- *Sans is sparing you. -->
+        <battle phase="4" type="resolve">
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>welp, it was worth a shot.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p> guess you like doing things the hard way, huh?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> sounds strange, but before all this i was secretly hoping we could be
+                        friends.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p> i always thought the anomaly was doing this cause they were unhappy.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>and when they got what they wanted, they would stop all this.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <!-- The REAL battle finally begins. -->
+        <battle phase="5" type="special attack">
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> and maybe all they needed was... i dunno.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>some good food. some bad laughs. some nice friends</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> but that's ridiculous, right?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p>yeah, you're the type of person who won't EVER be happy.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p> you'll keep consuming timelines over and over, until...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> well.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> hey.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>take it from me, kid.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> someday...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> you gotta learn when to QUIT.</p>
+                </bodyLang>
+            </act>
+            <!-- Felt like a turning point. -->
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> and that day's TODAY.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>cause... y'see..</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>all this fighting is really tiring me out.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>and if you keep pushing me...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> then i'll be forced to use my special attack.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>yeah, my special attack. sound familiar?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>well, get ready. cause after the next move, i'm going to use it.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>so, if you don't wanna see it, now would be a good time to die.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>well, here goes nothing...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>are you ready?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p>survive THIS, and i'll show you my special attack!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Tired1">
+                    <p>huff... puff...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Tired1">
+                    <p>all right. that's it.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Tired1">
+                    <p> it's time for my special attack.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>are you ready?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>here goes nothing.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>yep.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>that's right.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>it's literally nothing.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>and it's not gonna be anything, either.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> heh heh heh... ya get it?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>i know i can't beat you.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> one of your turns...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p> you're just gonna kill me.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>so, uh.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>i've decided...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>it's not gonna BE your turn. ever.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>i'm just gonna keep having MY turn until you give up.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p>even if it means we have to stand here until the end of time.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p> capiche?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>you'll get bored here.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>if you haven't gotten bored already, i mean.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p>and then, you'll finally quit.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Evil1">
+                    <p>i know your type.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>you're, uh, very determined, aren't you?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> you'll never give up, even if there's, uh...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>absolutely NO benefit to persevering whatsoever.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p> if i can make that clear.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>no matter what, you'll just keep going.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>not out of any desire for good or evil...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> but just because you think you can.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>and because you "can"...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p> ...you "have to."</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>but now, you've reached the end.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>there is nothing left for you now.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p> so, uh, in my personal opinion...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>the most "determined" thing you can do here?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap5">
+                    <p>is to, uh, completely give up.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p>and... (yawn) do literally anything else.</p>
+                </bodyLang>
+            </act>
+            <!-- Falls asleep -->
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> heh, didja really think you would be able</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap4">
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p> ...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>so...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>guess that's it, huh?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>just...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>don't say i didn't warn you.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> welp.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap3">
+                    <p> i'm going to grillby's.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="NULL">
+                    <p> papyrus, do you want anything?</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    <scene speakerRef="TD" route="genocide" type="throne room">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>...huh?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>You must be the one that flower just warned me about.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Howdy!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> ...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Erm...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>What kind of monster are you..?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Sorry, I cannot tell.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Well, we can always</p>
+            </bodyLang>
+        </act>
+        <battleStart opRef="UN"/>
+        <battle type="boss">
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>Now, now.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p> There's no need to fight.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p> Why not settle this...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>Over a nice cup of tea?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p> Why... You...</p>
+                </bodyLang>
+            </act>
+            <!-- Asgore dies -->
+        </battle>
+        <battleEnd/>
+    </scene>
+    <scene route="genocide" speakerRef="FL" type="throne room">
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>See? I never betrayed you!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>It was all a trick, see?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>I was waiting to kill him for you!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neu0">
+                    <p>After all it's me your best friend!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p> I'm helpful, I can be useful to you</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neu0">
+                    <p> I promise I won't get in your way</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se2">
+                    <p>I can help... I can... I can...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Sad1">
+                    <p> Please don't kill me.</p>
+                </bodyLang>
+            </act>
+        <!-- Flowey dies. -->
+    </scene>
+    <scene speakerRef="PL" route="genocide" type="throne room">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Greeting</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>I am [player name].</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Thank you.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Your power awakened me from death.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> My "human soul."</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> My "determination."</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> They were not mine, but YOURS.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>At first, I was so confused.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Our plan had failed, hadn't it?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Why was I brought back to life?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>You.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> With your guidance.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> I realized the purpose of my reincarnation.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Power. </p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Together, we eradicated the enemy and became strong.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> HP. ATK. DEF. GOLD. EXP. LV.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Every time a number increases, that feeling...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> That's me.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> "[player name]"</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Now.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Now, we have reached the absolute.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> There is nothing left for us here.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Let us erase this pointles world, and move on to the next.</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <altScene choice="Erase" speakerRef="PL" route="genocide">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Right. You are a great partner.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>We'll be together forever, won't we?</p>
+            </bodyLang>
+        </act>
+    </altScene>
+    <altScene choice="Do Not" speakerRef="PL" route="genocide">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> No...?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> Hmm...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>How curious.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p> You must have misunderstood.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p> SINCE WHEN WERE YOU THE ONE IN CONTROL?</p>
+            </bodyLang>
+        </act>
+    </altScene>
+    
+</undertale><undertale file="Asreil_Dialogue-J.xml">
+    <metadata>
+        <!-- name and emotion ref list -->
+        <!-- sep. file? -->
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <!--Expressions-->
+            <expr xml:id="Hap0">Devious/Evil Smile</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            <expr xml:id="Mad3">Determined</expr>
+            <expr xml:id="Se2">Concerned</expr>
+            <expr xml:id="Hug">Hugging</expr>
+        </refList>
+    </metadata>
+    
+    <scene speakerRef="AD" type="beforeBorder" route="pacifist">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Finally.</p>
+                <p>I was so tired of being a flower.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Howdy!</p>
+                <p>[Player's Name], are you there?</p>
+                <p>It's me, your best friend</p>
+            </bodyLang>
+        </act>
+
+        <battleStart type="boss" opRef="AD"/>
+        <battle phase="1" type="defaultDemon">
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>You know...</p>
+                    <p>I don't care about destroying this world anymore.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <p>After I defeat you and gain total control over the timeline...</p>
+                <p>I just want to reset everything.</p>
+            </act>
+            <act>
+                <!-- tentative Mad2 -->
+                <bodyLang faceRef="Hap0">
+                    <p>All your progress... Everyone's memories.</p>
+                    <p>I'll bring them all back to zero!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <p>Then we can do everything ALL over again.</p>
+            </act>
+            <act>
+                <p>And you know what the best part of all this is?</p>
+                <p>You'll DO it.</p>
+            </act>
+            <act>
+                <p>And then you'll lose to me again.</p>
+            </act>
+            <act>
+                <p>And again.</p>
+            </act>
+            <act>
+                <p>And again!!!</p>
+            </act>
+            <act>
+                <p>Because you want a "happy ending."</p>
+            </act>
+            <act>
+                <p>Because you "love your friends."</p>
+            </act>
+            <act>
+                <p>Because you "never give up."</p>
+            </act>
+            <act>
+                <p>Isn't that delicious?</p>
+                <p>Your "determination." The power that let you get this far...</p>
+                <p>It's gonna be your downfall!</p>
+            </act>
+            <act>
+                <p>Now, ENOUGH messing around!</p>
+                <p>It's time to purge this timeline once and for all!</p>
+                <p>...even after that attack, you're still standing in my way...?</p>
+                <p>Wow... you really ARE something special.</p>
+                <p>But don't get cocky.</p>
+                <p>Up until now, I've only been using a fraction of my REAL power!</p>
+                <p>Let's see what good your DETERMINATION is against this!!!</p>
+            </act>
+        </battle>
+
+        <battle phase="2" type="psychedelicDemon">
+            <act>
+                <p>Urah ha ha ha... Behold my TRUE power!</p>
+            </act>
+            <act>
+                <p>I can feel it...</p>
+                <p>Every time you die, your grip on this world slips away.</p>
+                <p>every time you die, your friends forget you a little more.</p>
+                <p>Your life will end here, in a world where no one remembers you...</p>
+            </act>
+            <act>
+                <p>Still, you're hanging on...?</p>
+                <p>That's fine.</p>
+                <p>In a few moments, you'll forget everything, too.</p>
+                <p>That attitude will serve you well in your next life!</p>
+            </act>
+            <act>
+                <p>Ura ha ha...</p>
+                <p>Still!?</p>
+                <p>Come on...</p>
+                <p>Show me what good your DETERMINATION is now!</p>
+            </act>
+        </battle>
+
+        <battle phase="3" type="wingedDemon">
+            <act>
+                <p>Huh? What are you doing...!?</p>
+            </act>
+            <act>
+                <p>Wh... what did you do...?</p>
+                <p>What's this feeling...? What's happening to me?</p>
+                <p>No! NO! I don't need ANYONE!</p>
+            </act>
+            <act>
+                <p>STOP IT! Get away from me!</p>
+                <p>Do you hear me!?</p>
+                <p>I'll tear you apart!</p>
+            </act>
+            <act>
+                <p>...</p>
+                <p>[Player's Name]... Do you know why I'm doing this...?</p>
+                <p>Why I keep fighting to keep you around...?</p>
+            </act>
+            <act>
+                <p>I'm doing this...</p>
+                <p>Because you're special, [Player's Name].</p>
+                <p>You're the only one who understands me.</p>
+                <p>You're the only one who's any fun to play with anymore.</p>
+            </act>
+            <act>
+                <p>...</p>
+                <p>No...</p>
+                <p>That's not JUST it.</p>
+                <p>I... I...</p>
+                <p>I'm doing this because I care about you, [Player's Name]!</p>
+                <p> I care about you more than anybody else!</p>
+            </act>
+            <act>
+                <p>I'm not ready for this to end.</p>
+                <p>I'm not ready for you to leave.</p>
+                <p>I'm not ready to say goodbye to someone like you again...</p>
+            </act>
+            <act>
+                <p>So, please... STOP doing this...</p>
+                <p>AND JUST LET ME WIN!!!</p>
+                <p quiver="true">STOP IT!!</p>
+                <p quiver="true">STOP IT NOW!!!</p>
+            </act>
+            <act>
+                <p>...</p>
+                <p>[Player's Name]...</p>
+                <p>I'm so alone. [Player's Name]...</p>
+            </act>
+            <act>
+                <p>I'm so afraid. [Player's Name]...</p>
+            </act>
+            <act>
+                <p>[Player's Name], I...</p>
+            </act>
+            <act>
+                <p>I...</p>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+        <!-- turns normal -->
+    <scene speakerRef="AD" type="beforeBorderNormal" route="pacifist">
+        <act>
+            <bodyLang faceRef="Sad1"/>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>I'm so sorry</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut2">
+                <p>I always was a crybaby, wasn't I, [Player's Name]?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut2">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>... I know.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>You're not actually [Player's Name], are you?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>[Player's Name] has been gone for a long time.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut2">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se1">
+                <p>Um... what...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>What IS your name?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut3">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>"Frisk?"</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>That's...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>A nice name.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p>Frisk...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>I haven't felt like this for a long time.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>As a flower, I was soulless.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>I lacked the power to love other people.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>However, with everyone's souls inside me...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p>I not only have my own compassion back...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>But I can feel every other monster's as well.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p>They all care about each other so much.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>And.. they care about you too, Frisk.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p>I wish I could tell you how everyone feels about you.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p>Papyrus... Sans... Undyne... Alphys...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>... Toriel.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut2">
+                <p>Monsters are weird.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>Even though they barely know you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut1">
+                <p>It feels like they all really love you.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p>Haha.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>Frisk... I... I understand if you can' forgive me.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>I understand if you hate me.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>I acted so strange and horrible.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>I hurt you.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>I hurt so many people.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>Friends, family, bystanders...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad2">
+                <p>There's no excuse for what I've done.</p>
+            </bodyLang>
+        </act>
+
+        <altScene speakerRef="AD" route="pacifist" choice="forgive">
+                <act>
+                    <bodyLang faceRef="Sad2">
+                        <p>Wh... What?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Hap1">
+                        <p>... Frisk, come on.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Neut1">
+                        <p>You're... You're gonna make me cry again.</p>
+                    </bodyLang>
+                </act>
+        </altScene>
+                <act>
+                    <bodyLang faceRef="Hap1">
+                        <p>... besides, even if you do forgive me...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Sad2">
+                        <p>I can't keep these souls inside of me.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Neut1">
+                        <p>The least I can do is return them.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Se2">
+                        <p>But first...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Mad3">
+                        <p>There's something I have to do.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Mad3">
+                        <p>Right now, I can feel everyone's hearts beating as one.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Mad3">
+                        <p>They're all burning with the same desire.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Mad3">
+                        <p>With everyone's power... With everyone's determination.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Mad3">
+                        <p>It's time for monsters...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang faceRef="Mad3">
+                        <p>To finally go free.</p>
+                    </bodyLang>
+                </act>
+
+                    <act>
+                        <bodyLang faceRef="Hap1">
+                            <p>Frisk...</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Neut1">
+                            <p>I have to go now.</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Hap1">
+                            <p>Without the power of everyone's souls...</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Sad3">
+                            <p>I can't keep maintaining this form.</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Sad3">
+                            <p>In a little while...</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Sad3">
+                            <p>I'll turn back into a flower.</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Sad3">
+                            <p>I'll stop being "myself."</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Sad3">
+                            <p>I'll stop being able to feel love again.</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Sad2">
+                            <p>So... Frisk.</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Sad2">
+                            <p>It's best of you just forget about me, OK?</p>
+                        </bodyLang>
+                    </act>
+                    <act>
+                        <bodyLang faceRef="Neut1">
+                            <p>Just go be with the people who love you.</p>
+                        </bodyLang>
+                    </act>
+
+            <altScene speakerRef="AD" route="pacifist" choice="comfort">
+                        <act>
+                            <bodyLang faceRef="Hug">
+                                <p>Ha... ha...</p>
+                                <p>I don't want to let go...</p>
+                            </bodyLang>
+                        </act>
+            </altScene>
+                        <act>
+                            <bodyLang faceRef="Hap1">
+                                <p>Frisk...</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Hap1">
+                                <p>You're..;</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Hap2">
+                                <p>You're going to do a great job, OK?</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Neut1">
+                                <p>No matter what you do.</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Neut1">
+                                <p>Everyone will be there for you, okay?</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Hap1">
+                                <p>Well... My time's running out.</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Hap1">
+                                <p>Goodbye.</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Neut1">
+                                <p>By the way...</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Neut1">
+                                <p>Frisk...</p>
+                            </bodyLang>
+                        </act>
+                        <act>
+                            <bodyLang faceRef="Neut1">
+                                <p>...take care of Mom and Dad for me, OK?</p>
+                            </bodyLang>
+                        </act>
+    </scene>
+</undertale><undertale file="omegaFlowey.xml">
+    <metadata>
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <name xml:id="FL">Flowey</name>
+            <!--Expressions-->
+            <expr xml:id="Neut0">Dead</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            
+            <expr xml:id="Hap0">Devious/Evil Smile</expr>
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+            
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            
+            <expr xml:id="Mad3">Determined</expr>
+            
+            <expr xml:id="Se0">Quirky</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Se2">Concerned</expr>
+            <expr xml:id="Se3">Mimics Asgore's face</expr>
+        </refList>
+    </metadata>
+    <scene speakerRef="FL" route="neutral" type="floweysMind">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Howdy!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>It's me, FLOWEY.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se0">
+                <p>FLOWEY the FLOWER!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>I owe you a HUGE thanks.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>You really did a number on that old fool.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Without you, I NEVER could have gotten past him.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>But now, with YOUR help...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Neut0">
+                <p quiver="true">He's DEAD.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap0">
+                <p quiver="true">And I'VE got the human souls!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Boy!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>I've been empty for so long...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>It feels great to have a SOUL inside me again.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se0">
+                <p>Mmmm, I can feel them wriggling...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Awww, you're feeling left out, aren't you?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se0">
+                <p>Well, that's just perfect.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>After All, I only have six souls.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se0">
+                <p>I still need one more...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap1">
+                <p quiver="true">Before I become GOD.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap0">
+                <p quiver="true">And then, with my newfound powers...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">Monsters.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">Humans.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">Everyone.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">I'll show them all the REAL meaning of this world.</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <altScene choice="saveFile" route="neutral" speakerRef="FL">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Oh, and forget about escaping to your old SAVE FILE.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">It's gone FOREVER.</p>
+            </bodyLang>
+        </act>
+    </altScene>
+    <altScene choice="noSaveFile" route="neutral" speakerRef="FL">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Golly, if only you had a SAVE FILE you could run away to...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">But you were just too STUPID to make one!</p>
+            </bodyLang>
+        </act>
+    </altScene>
+    <scene route="neutral" speakerRef="FL" type="floweysMind">
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>But don't worry.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Your old friend FLOWEY...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se0">
+                <p>Has worked out a replacement for you!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">I'll SAVE over your own death.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">So you can watch me tear you to bloody pieces...</p>
+            </bodyLang>
+        </act>
+        <battleStart opRef="FL" type="boss"/>
+        <battle phase="1" type="firstHelp">
+            <act>
+                <bodyLang>
+                    <p/><!--player window-->
+                </bodyLang>
+            </act>
+        </battle>
+        <battle phase="7" type="defeat">
+        <!-- False Defeat -->
+        <!-- Watch video -->
+        <act>
+            <bodyLang>
+                <p>No... NO!!!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>This CAN'T be happening!!!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p quiver="true">You... YOU...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>You IDIOT.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p/>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p/>
+            </bodyLang>
+        </act>
+        </battle>
+        <altScene choice="godOfThisWorld" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>Hee hee hee.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Did you REALLY think...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>You could defeat ME!?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>I am the GOD of this world.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>And YOU?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="runningIntoBullets" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>Hee hee hee.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Did you REALLY think...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>You... uh...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Would you STOP that?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Anyway, YOU!</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <battle phase="9" type="defeat">
+            <act>
+                <bodyLang>
+                    <p>You're HOPELESS.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Hopeless and alone...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>Golly, that's right!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Your WORTHLESS friends...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>...can't save you now.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Call for help. I dare you.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Cry into the darkness!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>"Mommy! Daddy!" "Somebody help!"</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>See what good it does you!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>But nobody came.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Boy! What a shame!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Nobody else...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Is gonna get to see you DIE!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>What?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>How'd you...?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Well, I'll just</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Wh...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>Where are my powers!?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>The souls...?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>What are they doing?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>NO!! NO!!!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>YOU CAN'T DO THAT!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>YOU'RE SUPPOSED TO OBEY ME!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>STOP!!! STOP IT!!!!!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang>
+                    <p>STOOOOPPPP!!!!!</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <altScene choice="fight" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I knew you had it in you!</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyOne" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>What are you doing?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Do you really think I've learned anything from this?</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>No.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyTwo" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>Sparing me won't change anything.</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>Killing me is the only way to end this.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyThree" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>If you let me live...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll come back.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyFour" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll kill you.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyFive" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll kill everyone.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercySix" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p quiver="true">I'll kill everyone you love</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercySeven" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyEight" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyNine" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...why?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyTen" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>...why are you being...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>...so nice to me?</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyEleven" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>I can't understand.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyTwelve" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>I can't understand!</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <altScene choice="mercyThirteen" route="neutral" speakerRef="FL">
+            <battle phase="8" type="defeat">
+                <act>
+                    <bodyLang>
+                        <p>I just can't understand...</p>
+                    </bodyLang>
+                </act>
+                <act>
+                    <bodyLang>
+                        <p>* Flowey ran away.</p>
+                    </bodyLang>
+                </act>
+            </battle>
+        </altScene>
+        <battleEnd/>
+    </scene>
+</undertale><undertale file="asgoreNeutralEnding.xml">
+    <metadata>
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <name xml:id="FL">Flowey</name>
+            <name xml:id="AS">Asgore</name>
+            <!--Expressions-->
+            <expr xml:id="Neut0">Dead</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            
+            <expr xml:id="Hap0">Devious/Evil Smile</expr>
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+            
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            
+            <expr xml:id="Mad3">Determined</expr>
+            
+            <expr xml:id="Se0">Quirky</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Se2">Concerned</expr>
+            <expr xml:id="Se3">Mimics Asgore's face</expr>
+        </refList>
+    </metadata>
+    <scene speakerRef="AG" route="neutral" type="preFight">
+        <battleStart/>
+        <battle>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>(A strange light fills the room.)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>(Twilight is shining through the barrier.)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>(It seems your journey is finally over.)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p> (You're filled with DETERMINATION.^5)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Sad3">
+                <p>Human...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>It was nice to meet you.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>Goodbye.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> ASGORE attacks!</p>
+            </bodyLang>
+        </act>
+        </battle>
+    </scene>
+    
+    <scene speakerRef="AG" route="neutral" type="meetAsgore">
+        <act>
+            <bodyLang>
+                <p> Oh?  Is someone there?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Just a moment!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> I have almost finished watering these flowers.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Curious.  I've never seen a plant...  Cry before.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> ... Here we are!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Howdy!  How can I...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Oh.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> I so badly want to say, "would you like a cup of tea?"</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> But...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> You know how it is.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Nice day today, huh?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Birds are singing, flowers are blooming...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Perfect weather for a game of catch.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> You know what we must do.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> When you are ready, come into the next room.</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <scene speakerRef="AG" route="neutral" type="beforeBarrier">
+        <act>
+            <bodyLang>
+                <p> Just think of it like...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> A visit to the dentist.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Are you ready?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> If you are not, I understand.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> I am not ready either.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> ...</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <scene speakerRef="AG" route="neutral" type="asgoreB">
+        <act>
+            <bodyLang>
+                <p> Asgore has low HP.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> ASGORE 80 ATK 80 DEF</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> But there was nothing to say.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> You quietly tell ASGORE you don't want to fight him.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> His hands tremble for a moment.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> You tell ASGORE that you don't want to fight him.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> His breathing gets funny for a moment.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> You firmly tell ASGORE to STOP fighting.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Recollection flashes in his eyes...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> ASGORE's ATTACK dropped!  ASGORE's DEFENSE dropped!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Seems talking won't do any more good.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> All you can do is FIGHT.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p> Dum dee dum...</p>
+            </bodyLang>
+        </act>
+    </scene>
+    <scene speakerRef="AG" route="neutral" type="finalCutscene">
+        <act>
+            <bodyLang>
+                <p>So that is how it is.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Why... You...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I remember the day after my son died.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>The entire underground was devoid of hope.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>The future had once again been taken from us by the humans.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>In a fit of anger, I declared war.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I said that I would destroy any human that came here.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I would use their souls to become godlike...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>... and free us from this terrible prison.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Then, I would destroy humanity...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>And let monsters rule the surface, in peace.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Soon, the people's hopes returned.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>My wife, however, became disgusted with my actions.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>She left this place, never to be seen again.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Truthfully...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I do not want power.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I do not want to hurt anyone.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I just wanted everyone to have hope...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>But...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I cannot take this any longer.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I just want to see my wife.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I just want to see my child.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Please... Young one...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>This war has gone on long enough.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>You have the power...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Take my soul, and leave this cursed place.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>After everything I have done to hurt you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>You would rather stay down here and suffer...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Than live happily on the surface?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Human...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>I promise you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>For as long as you remain here...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>My wife and I will take care of you as best we can.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>We can sit in the living room, telling stories...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Eating butterscotch pie...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>We could be like...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang>
+                <p>Like a family...</p>
+            </bodyLang>
+        </act>
+    </scene>
+</undertale><undertale file="undertaleUNDYNE.xml">
+    <metadata>
+        <!-- name and emotion ref list -->
+        <!-- sep. file? -->
+        <refList>
+            <!--Characters-->
+            <name xml:id="AD">Asreil Dreemur</name>
+            <name xml:id="TD">Toriel Dreemur</name>
+            <name xml:id="SN">Sans</name>
+            <name xml:id="UN">Undyne the Undying</name>
+            <name xml:id="FL">Flowey</name>
+            <name xml:id="PL">Player</name>
+            <name xml:id="MK">Monster Kid</name>
+
+
+            <!--Expressions-->
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+            <expr xml:id="Hap3">Winking</expr>
+            <expr xml:id="Hap4">Smile with blood</expr>
+            <expr xml:id="Hap5">Cocky</expr>
+            <expr xml:id="Neu0">Innocent</expr>
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Neut2">Calm with...</expr>
+            <expr xml:id="Neut3">Thinking</expr>
+            <expr xml:id="Se1">Side-eye</expr>
+            <expr xml:id="Se2">Concerned smile</expr>
+            <expr xml:id="Se3"> Smiling with eyes closed</expr>
+            <expr xml:id="Sad1">Crying</expr>
+            <expr xml:id="Sad2">Frowning. Sad...</expr>
+            <expr xml:id="Sad3">Disappointed</expr>
+            <expr xml:id="Mad3">Determined</expr>
+            <expr xml:id="Evil1">Sinister</expr>
+            <expr xml:id="Evil2">Insane smile</expr>
+            <expr xml:id="Tired1">Tired</expr>
+            <expr xml:id="NULL">No face, not on screen</expr>
+        </refList>
+    </metadata>
+
+    <scene route="genocide" speakerRef="MK" type="waterFallBridge">
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Yo.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Undyne told me to stay away from you</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>She said you... you hurt a lot of people.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>But, yo, that's not true, right!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>... yo... Why won't you answer me?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>A... a... and what's with that weird expression...?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Oh... Oh man...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>(Man, my h-hearts pounding right out of my chest...)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>(...what would Undyne do?)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>(...)</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Yo...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Y-you'd b-better st-stop r-right where you are...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>Cause if you w-wanna hurt anyone else... you're..</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>You're gonna have to get through me, first.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Se2">
+                <p>A...and... and...</p>
+            </bodyLang>
+        </act>
+        <battleStart opRef="MK"/>
+        <battle>
+            <act speakerRef="MK">
+                <bodyLang faceRef="Mad3">
+                    <p>In my way. </p>
+                </bodyLang>
+            </act>
+            <act speakerRef="MK">
+                <bodyLang faceRef="Sad2">
+                    <p> Undyne... You're... You're hurt... </p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Hap2">
+                    <p> Hurt? It's nothing.</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Hap2">
+                    <p>Next time, listen when I tell you to leave, okay?</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="MK">
+                <bodyLang faceRef="Sad2">
+                    <p>Undyne... I...</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Mad3">
+                    <p>I'll take care of this!</p>
+                </bodyLang>
+            </act>
+            <act speakerRef="UN">
+                <bodyLang faceRef="Mad3">
+                    <p>Get out of here!</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+        <battleStart opRef="UN"/>
+        <battle>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>...heh... "It's nothing"...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>No... s-somehow with just one hit...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> I'm already...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> Already...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>D... damn it...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> Papyrus... Alphys... ASGORE...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>Just like that, I...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p> I've failed you.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> ...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> No...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> My body... It feels like it's splitting apart.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> Like any instant... I'll scatter into a million pieces.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p> But...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>Deep, deep, in my soul.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>There's a burning feeling I can't describe.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>A burning feeling that WON'T let me die.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>This isn't about monsters anymore, is it?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>If you get past me, you'll...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>You'll destroy them all, won't you?</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>Monsters... Humans... Everyone...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut3">
+                    <p>Everone's hopes. Everyone's dreams. Vanquished in an instant.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Se3">
+                    <p>But I WON'T let you do that.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <act>
+            <bodyLang faceRef="Se3">
+                <p>Right now, everyone in the world...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p> I can feel their hearts beating as one.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>And we all have ONE goal.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>To defeat YOU.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>Human. No, WHATEVER you are.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>For the sake of the whole world...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>I, UNDYNE, will strike you down!</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>You're gonna have to try a little harder than THAT.</p>
+            </bodyLang>
+        </act>
+        <!-- battle ensues without text for a while -->
+        <act>
+            <bodyLang faceRef="Tired1">
+                <p> Damn it...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Tired1">
+                <p> So even THAT power... It wasn't enough...?</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Tired1">
+                <p>...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>Heh...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil1">
+                <p>Heheheh...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>If you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>If you think I'm gonna give up hope, you're wrong.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>'Cause I've... got my friends behind me.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p>Alphys told me that she would watch me fight you...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p>And if anything went wrong, she would... evacuate everyone,</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap5">
+                <p> By now she's called ASGORE and told him to absorb the 6 human SOULS.</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Hap2">
+                <p>And with that power...</p>
+            </bodyLang>
+        </act>
+        <act>
+            <bodyLang faceRef="Evil2">
+                <p>This world will live on...!</p>
+            </bodyLang>
+        </act>
+        <battleEnd/>
+    </scene>
+</undertale><undertale file="Lab_Amalgamates.xml">
+    <metadata>
+        <refList>
+            <!-- True Lab Characters -->
+            <name xml:id="MH">Memoryhead</name>
+            <name xml:id="RB">Reaper Bird</name>
+            <name xml:id="AE">Amalgamate Endogney</name>
+            <name xml:id="LB">Lemon Bread</name>
+            <name xml:id="AW">Amalgamate Snowdrake</name>
+            <!-- True Lab Expressions -->
+            <expr xml:id="Neut1">Neutral</expr>
+            <expr xml:id="Hap0">Twisted Smile</expr>
+            <expr xml:id="Hap1">Excited</expr>
+            <expr xml:id="Hap2">Smiling</expr>
+        </refList>
+    </metadata>
+    
+    <scene speakerRef="MH" type="leftSink" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>           drew near!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Come join the fun.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Come join the fun.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="RB" type="mirrorRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>,</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>[Unintelligible Dialogue]</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>[Unintelligible Dialogue]</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>[Unintelligible Dialogue]</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Someone finally remembers...</p>
+                    <p>Ribbit Ribbit.</p>
+                    <p>Courage...</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="AE" type="fanRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>It's the Amalgamate</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>You try looking away, but it seems to appear everywhere you look.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>You call the Amalgamate</p>
+                    <p>It bounds towards you, flecking a strange liquid from an orifice.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>You pet the Amalgamate. It convulses rapidly... Then calms down.</p>
+                    <p>It rests quietly on your lap for a moment...</p>
+                    <p>Zzzzz...</p>
+                    <p>Suddenly, it shoots away and crawls wildly on the walls!</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap1">
+                    <p>You throw your weapon into the corner of the room.</p>
+                    <p>The Amalgamate brings it back to you... Proudly?</p>
+                    <p>You repeat this process a few times.</p>
+                    <p>Now Amalgamate is very tired... It leans its dripping, amorphous body on you...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap1">
+                    <p>You pet the Amalgamate. It starts to generate a Stage I Happiness Froth.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap1">
+                    <p>Amalgamate seems too tired to play.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap2">
+                    <p>You pet decisively. The Amalgamate seems to be satisfied by all this.</p>
+                    <p>Endogeny is contented.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="LB" type="skullRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Smells like sweet lemons.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                    <p>Welcome to my area</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                    <p>Stay here</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                    <p>That's what they all say.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                    <p>But nobody came.</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Hap0">
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                    <p>I've felt this before.</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+    
+    <scene speakerRef="AW" type="refridgeratorRoom" route="pacifist">
+        <battle>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>It's so cold</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>haha... i...</p>
+                </bodyLang>
+            </act>
+            <act>
+                <bodyLang faceRef="Neut1">
+                    <p>haha...</p>
+                </bodyLang>
+            </act>
+        </battle>
+        <battleEnd/>
+    </scene>
+</undertale></masterFile>
