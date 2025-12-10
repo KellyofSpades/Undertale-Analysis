@@ -295,3 +295,11 @@ p.four{
 .character{
  color: aqua;
 }
+
+
+/* Research Page Section */
+.sevegies {
+  height: 50vh;
+  /* width: 25vw; */
+  background-color: white;
+}
