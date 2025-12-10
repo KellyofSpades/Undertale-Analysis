@@ -42,6 +42,14 @@ body {
   background-color: black;
 }
 
+.key li.flowey-scenes {
+  border: 0.125rem solid white !important;
+  background-color: black;
+}
+.key li.asriel-scenes {
+  border: 0.125rem solid white !important;
+  background-color: black;
+}
 /* NOTE: any additions to key should go immediately after the speaker <li> or styles will be misalligned */
 
 /* Header decoration */
@@ -94,16 +102,23 @@ body {
 }
 
 .character-box:has(+ .index-nav:hover a.about-button:hover) {
-  background-image: url('images/Froggit_battle_idle.gif');
+  background-image: url('images/pixel-foot-stomping.gif');
+  background-size: 25%;
+  background-position: center;
+}
+.character-box:has(+ .index-nav:hover a.research-button:hover) {
+  background-image: url('images/sans.gif');
+  background-size: 40%;
+  background-position: center;
+}
+
+
+.character-box:has(+ .index-nav:hover a.sources-button:hover) {
+  background-image: url('images/dog.gif');
   background-size: 20%;
   background-position: center;
 }
 
-.character-box:has(+ .index-nav:hover a.research-button:hover) {
-  background-image: url('images/undertale-alphys.gif');
-  background-size: 30%;
-  background-position: center;
-}
 
 /* .gif {
   image-rendering: pixelated;
