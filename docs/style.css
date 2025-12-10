@@ -42,14 +42,6 @@ body {
   background-color: black;
 }
 
-.key li.flowey-scenes {
-  border: 0.125rem solid white !important;
-  background-color: black;
-}
-.key li.asriel-scenes {
-  border: 0.125rem solid white !important;
-  background-color: black;
-}
 /* NOTE: any additions to key should go immediately after the speaker <li> or styles will be misalligned */
 
 /* Header decoration */
@@ -79,6 +71,18 @@ body {
   background-color: black;
 }
 
+.key li.flowey-scenes {
+  border: 0.125rem solid white !important;
+  background-color: black;
+}
+.key li.asriel-scenes {
+  border: 0.125rem solid white !important;
+  background-color: black;
+}
+.key li.lab-scenes {
+  border: 0.125rem solid white !important;
+  background-color: black;
+}
 /* Index page */
 .game-box {
   height: 100vh;
@@ -287,4 +291,7 @@ p.four{
   border-width: thick;
   padding-left: 1rem;  
   border-color: blue;
+}
+.character{
+ color: aqua;
 }
