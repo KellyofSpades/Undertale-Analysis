@@ -29,22 +29,32 @@ body {
 .battleSelection {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 1rem;
   padding-bottom: 0.75rem;
+  align-items: center;
   /* padding-left: 0.5rem; */
   justify-content: space-evenly;
-   
-  & :nth-child(1), :nth-child(2) {
+  width: 100vw;
+  transform: translateX(-7rem);
+  
+  & .res-row-one {
     display: flex;
     justify-content: space-evenly;
+    gap: 15vw;
+  }
+  & .res-row-two {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15vw;
+  }
 
-    & div {
+  & div div {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 12vw;
     height: 13rem;
-    justify-content: center;
+    justify-content: end;
     /* border: 1px solid red; */
 
     & a {
@@ -55,7 +65,6 @@ body {
       width: 12vw;
       padding-bottom: 1rem;
     }
-  }
   }
 }
 
