@@ -13,17 +13,21 @@
                     <xsl:sort select="@file" order="descending"/>
                     <xsl:variable name="lineCount" select="count(descendant::p)"/>
                     <xsl:variable name="xPosition" select="(position() - 1) * 60"/>
+                    <xsl:variable name="yPosition" select="(position() - 1) * 10"/>
                     <xsl:variable name="position" select="((position()-1) mod count($colors) + 1)"/>
                     <rect x="{$xPosition}" y="-{$lineCount}" height="{$lineCount}" width="35" 
                         fill="{$colors[$position]}"/>
-                    <text x="{$xPosition}" y="15" text-anchor="middle">
+                    <text x="{$xPosition}" y="{$yPosition + 10}" text-anchor="middle" class="fileName">
                         <xsl:value-of select="@file"/>
                     </text>
-                    <text x="{$xPosition}" y="-{$lineCount + 5}" text-anchor="middle">
+                    <text x="{$xPosition + 18}" y="-{$lineCount + 5}" text-anchor="middle">
                         <xsl:value-of select="$lineCount"/>
                     </text>
                 </xsl:for-each>
             <!--</g>-->
+            <style>
+                .fileName {font-size: 8px}
+            </style>
         </svg>
     </xsl:template>
 </xsl:stylesheet>
