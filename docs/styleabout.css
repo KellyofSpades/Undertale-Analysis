@@ -62,9 +62,9 @@ body {
 
     & a {
       white-space: nowrap;
-      height: 70%;
+      height: 8rem;
       width: auto;
-      /* border: 1px solid white; */
+      border: 1px solid white;
     }
     
     & img {
