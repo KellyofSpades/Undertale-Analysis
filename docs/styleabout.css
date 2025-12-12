@@ -72,6 +72,19 @@ body {
   }
 }
 
+figcaption {
+  color: white;
+}
+
+.research-imgs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.research-imgs img {
+  width: 40vw;
+}
+
 a {
   color: #e58602;
   font-weight: bold;
