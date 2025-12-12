@@ -73,6 +73,7 @@ body {
   }
 }
 
+
 figcaption {
   color: white;
 }
@@ -83,7 +84,7 @@ figcaption {
 }
 
 .research-imgs img {
-  height: 40vw;
+  width: 40vw;
 }
 
 a {
