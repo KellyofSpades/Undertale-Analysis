@@ -25,6 +25,9 @@ body {
   }
 }
 
+/* .fileName {font-size: 8px;} */
+/* .label-text {color: white;} */
+
 /* Research Section */
 .battleSelection {
   display: flex;
