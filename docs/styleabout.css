@@ -58,18 +58,15 @@ body {
     width: 12vw;
     height: 13rem;
     justify-content: end;
-    /* border: 1px solid red; */
 
     & a {
       white-space: nowrap;
       height: 70%;
       width: auto;
-      /* border: 1px solid white; */
     }
     
     & img {
       width: auto;
-      /* width: 12vw; */
       padding-bottom: 1rem;
       height: 100%;
     }
